@@ -125,6 +125,17 @@ class Dashboard extends Component {
     this.getAllUserSkill();
     this.getAllPosition();
     this.getPositionTarget();
+
+
+    // var me = this
+    // setTimeout(function(){
+    //   me.generateGraphData()
+    // }, 1000);
+
+  }
+
+  doChart = () => {
+    this.generateGraphData()
   }
 
 
@@ -1142,6 +1153,7 @@ class Dashboard extends Component {
       ],
       dataset: targetGraphData.dataset
     }
+    console.log(dataSource)
     this.setState({ dataSource });
   }
 
@@ -1163,8 +1175,12 @@ class Dashboard extends Component {
     //console.log(JSON.stringify(data))
     //debugger
 
-
+    requestAnimationFrame(this.doChart)
+    
     this.props.showLoader(false);
+
+
+
   };
 
   // Handler for radio buttons to change chart theme.

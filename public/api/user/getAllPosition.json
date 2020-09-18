@@ -1,58 +1,38 @@
 [
   {
     "position_id": 1,
-    "position_name": "xAVP, Risk Control - PC"
+    "position_name": "Associate Manager/Associate Expert"
   },
   {
     "position_id": 2,
-    "position_name": "Risk Control Consulting Director - PC"
+    "position_name": "Director"
   },
   {
     "position_id": 3,
-    "position_name": "Risk Control Director - PC"
+    "position_name": "Experienced Professional"
   },
   {
     "position_id": 4,
-    "position_name": "Risk Control Consultant - PC"
+    "position_name": "Experienced Support"
   },
   {
     "position_id": 5,
-    "position_name": "Risk Control Specialist - PC"
+    "position_name": "Manager/Expert"
   },
   {
     "position_id": 6,
-    "position_name": "Risk Control Representative - PC"
+    "position_name": "Professional"
   },
   {
     "position_id": 7,
-    "position_name": "Risk Control Trainee - PC"
+    "position_name": "Senior Professional"
   },
   {
     "position_id": 8,
-    "position_name": "AVP, Risk Control - EB"
+    "position_name": "Specialized Support"
   },
   {
     "position_id": 9,
-    "position_name": "Risk Control Consulting Director - EB"
-  },
-  {
-    "position_id": 10,
-    "position_name": "Risk Control Director - EB"
-  },
-  {
-    "position_id": 11,
-    "position_name": "Risk Control Consultant - EB"
-  },
-  {
-    "position_id": 12,
-    "position_name": "Risk Control Specialist - EB"
-  },
-  {
-    "position_id": 13,
-    "position_name": "Risk Control Representative - EB"
-  },
-  {
-    "position_id": 14,
-    "position_name": "Risk Control Trainee - EB"
+    "position_name": "Vice President"
   }
 ]

@@ -1,0 +1,2402 @@
+[
+  {
+    "skill_id": 1,
+    "skill_name": "P&C Coverages",
+    "segement": "None",
+    "line": "Business",
+    "is_core": 1,
+    "competency": "CNA Insurance"
+  },
+  {
+    "skill_id": 2,
+    "skill_name": "Underwriting Process",
+    "segement": "None",
+    "line": "Business",
+    "is_core": 1,
+    "competency": "CNA Insurance"
+  },
+  {
+    "skill_id": 3,
+    "skill_name": "Claims Process",
+    "segement": "None",
+    "line": "Business",
+    "is_core": 1,
+    "competency": "CNA Insurance"
+  },
+  {
+    "skill_id": 4,
+    "skill_name": "Knowledge of CNAs Segments",
+    "segement": "None",
+    "line": "Business",
+    "is_core": 1,
+    "competency": "CNA Insurance"
+  },
+  {
+    "skill_id": 5,
+    "skill_name": "Loss Trends",
+    "segement": "None",
+    "line": "Business",
+    "is_core": 1,
+    "competency": "CNA Insurance"
+  },
+  {
+    "skill_id": 6,
+    "skill_name": "Risk Assessment",
+    "segement": "None",
+    "line": "Business",
+    "is_core": 1,
+    "competency": "RC Process"
+  },
+  {
+    "skill_id": 7,
+    "skill_name": "Basic RC Client Services",
+    "segement": "None",
+    "line": "Business",
+    "is_core": 1,
+    "competency": "RC Process"
+  },
+  {
+    "skill_id": 8,
+    "skill_name": "Loss Analysis",
+    "segement": "None",
+    "line": "Business",
+    "is_core": 1,
+    "competency": "RC Process"
+  },
+  {
+    "skill_id": 9,
+    "skill_name": "Analytical & Proactive Thinking",
+    "segement": "None",
+    "line": "Business",
+    "is_core": 1,
+    "competency": "Professional RC Skills"
+  },
+  {
+    "skill_id": 10,
+    "skill_name": "Business Writing",
+    "segement": "None",
+    "line": "Business",
+    "is_core": 1,
+    "competency": "Professional RC Skills"
+  },
+  {
+    "skill_id": 11,
+    "skill_name": "Delivery Effectiveness",
+    "segement": "None",
+    "line": "Business",
+    "is_core": 1,
+    "competency": "Professional RC Skills"
+  },
+  {
+    "skill_id": 12,
+    "skill_name": "Time Management",
+    "segement": "None",
+    "line": "Business",
+    "is_core": 1,
+    "competency": "Professional RC Skills"
+  },
+  {
+    "skill_id": 13,
+    "skill_name": "Interpersonal Skills",
+    "segement": "None",
+    "line": "Business",
+    "is_core": 1,
+    "competency": "Professional RC Skills"
+  },
+  {
+    "skill_id": 14,
+    "skill_name": "Interviewing Skills",
+    "segement": "None",
+    "line": "Business",
+    "is_core": 1,
+    "competency": "Professional RC Skills"
+  },
+  {
+    "skill_id": 15,
+    "skill_name": "Software Security",
+    "segement": "None",
+    "line": "Cyber",
+    "is_core": 1,
+    "competency": "Cyber Basics"
+  },
+  {
+    "skill_id": 16,
+    "skill_name": "Vendor Management",
+    "segement": "None",
+    "line": "Cyber",
+    "is_core": 1,
+    "competency": "Cyber Basics"
+  },
+  {
+    "skill_id": 17,
+    "skill_name": "Network Communications",
+    "segement": "None",
+    "line": "Cyber",
+    "is_core": 1,
+    "competency": "Cyber Basics"
+  },
+  {
+    "skill_id": 18,
+    "skill_name": "Data Security",
+    "segement": "None",
+    "line": "Cyber",
+    "is_core": 1,
+    "competency": "Cyber Basics"
+  },
+  {
+    "skill_id": 19,
+    "skill_name": "Privacy Rights",
+    "segement": "None",
+    "line": "Cyber",
+    "is_core": 1,
+    "competency": "Cyber Basics"
+  },
+  {
+    "skill_id": 20,
+    "skill_name": "E&O Coverage",
+    "segement": "None",
+    "line": "E&O",
+    "is_core": 1,
+    "competency": "E&O Basics"
+  },
+  {
+    "skill_id": 21,
+    "skill_name": "Intellectual Property",
+    "segement": "None",
+    "line": "E&O",
+    "is_core": 1,
+    "competency": "E&O Basics"
+  },
+  {
+    "skill_id": 22,
+    "skill_name": "Employment Practices Liability (EPL)",
+    "segement": "None",
+    "line": "E&O",
+    "is_core": 1,
+    "competency": "E&O Basics"
+  },
+  {
+    "skill_id": 23,
+    "skill_name": "Construction ISO Classification",
+    "segement": "None",
+    "line": "Property",
+    "is_core": 1,
+    "competency": "Construction"
+  },
+  {
+    "skill_id": 24,
+    "skill_name": "Firewalls",
+    "segement": "None",
+    "line": "Property",
+    "is_core": 1,
+    "competency": "Construction"
+  },
+  {
+    "skill_id": 25,
+    "skill_name": "Roofing",
+    "segement": "None",
+    "line": "Property",
+    "is_core": 1,
+    "competency": "Construction"
+  },
+  {
+    "skill_id": 26,
+    "skill_name": "Common Hazards",
+    "segement": "None",
+    "line": "Property",
+    "is_core": 1,
+    "competency": "Occupany"
+  },
+  {
+    "skill_id": 27,
+    "skill_name": "Insurance to Value (ITV) CNA",
+    "segement": "None",
+    "line": "Property",
+    "is_core": 1,
+    "competency": "Occupany"
+  },
+  {
+    "skill_id": 28,
+    "skill_name": "Special Hazards",
+    "segement": "None",
+    "line": "Property",
+    "is_core": 1,
+    "competency": "Occupany"
+  },
+  {
+    "skill_id": 29,
+    "skill_name": "Burglary & Theft",
+    "segement": "None",
+    "line": "Property",
+    "is_core": 1,
+    "competency": "Protection"
+  },
+  {
+    "skill_id": 30,
+    "skill_name": "Public Protection",
+    "segement": "None",
+    "line": "Property",
+    "is_core": 1,
+    "competency": "Protection"
+  },
+  {
+    "skill_id": 31,
+    "skill_name": "Fire Alarm Systems",
+    "segement": "None",
+    "line": "Property",
+    "is_core": 1,
+    "competency": "Protection"
+  },
+  {
+    "skill_id": 32,
+    "skill_name": "Sprinkler Analysis",
+    "segement": "None",
+    "line": "Property",
+    "is_core": 1,
+    "competency": "Protection"
+  },
+  {
+    "skill_id": 33,
+    "skill_name": "Specialized Protection Systems",
+    "segement": "None",
+    "line": "Property",
+    "is_core": 1,
+    "competency": "Protection"
+  },
+  {
+    "skill_id": 34,
+    "skill_name": "Protection Systems",
+    "segement": "None",
+    "line": "Property",
+    "is_core": 1,
+    "competency": "Protection"
+  },
+  {
+    "skill_id": 35,
+    "skill_name": "Sprinkler Plan Review",
+    "segement": "None",
+    "line": "Property",
+    "is_core": 1,
+    "competency": "Protection"
+  },
+  {
+    "skill_id": 36,
+    "skill_name": "Commodity Classification",
+    "segement": "None",
+    "line": "Property",
+    "is_core": 1,
+    "competency": "Protection"
+  },
+  {
+    "skill_id": 37,
+    "skill_name": "Commercial Cooking",
+    "segement": "None",
+    "line": "Property",
+    "is_core": 1,
+    "competency": "Protection"
+  },
+  {
+    "skill_id": 38,
+    "skill_name": "Internal & External Exposures",
+    "segement": "None",
+    "line": "Property",
+    "is_core": 1,
+    "competency": "Exposures"
+  },
+  {
+    "skill_id": 39,
+    "skill_name": "Knowledge of Inland Marine",
+    "segement": "None",
+    "line": "Property",
+    "is_core": 1,
+    "competency": "Exposures"
+  },
+  {
+    "skill_id": 40,
+    "skill_name": "Commodity Classification",
+    "segement": "None",
+    "line": "Property",
+    "is_core": 1,
+    "competency": "Exposures"
+  },
+  {
+    "skill_id": 41,
+    "skill_name": "Natural Hazards",
+    "segement": "None",
+    "line": "Property",
+    "is_core": 1,
+    "competency": "Exposures"
+  },
+  {
+    "skill_id": 42,
+    "skill_name": "Description of Operations",
+    "segement": "None",
+    "line": "Property",
+    "is_core": 1,
+    "competency": "Reporting Requirements"
+  },
+  {
+    "skill_id": 43,
+    "skill_name": "Basic knowledge of Business Interruption (BI)",
+    "segement": "None",
+    "line": "Property",
+    "is_core": 1,
+    "competency": "Reporting Requirements"
+  },
+  {
+    "skill_id": 44,
+    "skill_name": "Aerial imagery & photos",
+    "segement": "None",
+    "line": "Property",
+    "is_core": 1,
+    "competency": "Reporting Requirements"
+  },
+  {
+    "skill_id": 45,
+    "skill_name": "PML Evaluations",
+    "segement": "None",
+    "line": "Property",
+    "is_core": 1,
+    "competency": "Reporting Requirements"
+  },
+  {
+    "skill_id": 46,
+    "skill_name": "NFPA",
+    "segement": "None",
+    "line": "Property",
+    "is_core": 1,
+    "competency": "Codes & Regulations - Property"
+  },
+  {
+    "skill_id": 47,
+    "skill_name": "Local Building Codes",
+    "segement": "None",
+    "line": "Property",
+    "is_core": 1,
+    "competency": "Codes & Regulations - Property"
+  },
+  {
+    "skill_id": 48,
+    "skill_name": "Machine Safeguarding",
+    "segement": "None",
+    "line": "Workers' Compensation",
+    "is_core": 1,
+    "competency": "Equipment & Machinery"
+  },
+  {
+    "skill_id": 49,
+    "skill_name": "Equipment Used for Material Handling",
+    "segement": "None",
+    "line": "Workers' Compensation",
+    "is_core": 1,
+    "competency": "Equipment & Machinery"
+  },
+  {
+    "skill_id": 50,
+    "skill_name": "Industrial Trucks & Lifts",
+    "segement": "None",
+    "line": "Workers' Compensation",
+    "is_core": 1,
+    "competency": "Equipment & Machinery"
+  },
+  {
+    "skill_id": 51,
+    "skill_name": "Ladder & Scaffold",
+    "segement": "None",
+    "line": "Workers' Compensation",
+    "is_core": 1,
+    "competency": "Equipment & Machinery"
+  },
+  {
+    "skill_id": 52,
+    "skill_name": "Tools",
+    "segement": "None",
+    "line": "Workers' Compensation",
+    "is_core": 1,
+    "competency": "Equipment & Machinery"
+  },
+  {
+    "skill_id": 53,
+    "skill_name": "Medical Management",
+    "segement": "None",
+    "line": "Workers' Compensation",
+    "is_core": 1,
+    "competency": "Injury Mgmt - RTW"
+  },
+  {
+    "skill_id": 54,
+    "skill_name": "Indemnity Management",
+    "segement": "None",
+    "line": "Workers' Compensation",
+    "is_core": 1,
+    "competency": "Injury Mgmt - RTW"
+  },
+  {
+    "skill_id": 55,
+    "skill_name": "RTW",
+    "segement": "None",
+    "line": "Workers' Compensation",
+    "is_core": 1,
+    "competency": "Injury Mgmt - RTW"
+  },
+  {
+    "skill_id": 56,
+    "skill_name": "IBNR",
+    "segement": "None",
+    "line": "Workers' Compensation",
+    "is_core": 1,
+    "competency": "Injury Mgmt - RTW"
+  },
+  {
+    "skill_id": 57,
+    "skill_name": "PPE for Workforce",
+    "segement": "None",
+    "line": "Workers' Compensation",
+    "is_core": 1,
+    "competency": "Employee Health & Safety"
+  },
+  {
+    "skill_id": 58,
+    "skill_name": "Tool Safety",
+    "segement": "None",
+    "line": "Workers' Compensation",
+    "is_core": 1,
+    "competency": "Employee Health & Safety"
+  },
+  {
+    "skill_id": 59,
+    "skill_name": "Office Ergonomics",
+    "segement": "None",
+    "line": "Workers' Compensation",
+    "is_core": 1,
+    "competency": "Employee Health & Safety"
+  },
+  {
+    "skill_id": 60,
+    "skill_name": "Industrial Hygiene",
+    "segement": "None",
+    "line": "Workers' Compensation",
+    "is_core": 1,
+    "competency": "Employee Health & Safety"
+  },
+  {
+    "skill_id": 61,
+    "skill_name": "Workplace Safety",
+    "segement": "None",
+    "line": "Workers' Compensation",
+    "is_core": 1,
+    "competency": "Employee Health & Safety"
+  },
+  {
+    "skill_id": 62,
+    "skill_name": "Walkway Safety",
+    "segement": "None",
+    "line": "Workers' Compensation",
+    "is_core": 1,
+    "competency": "Employee Health & Safety"
+  },
+  {
+    "skill_id": 63,
+    "skill_name": "Background Screening",
+    "segement": "None",
+    "line": "Workers' Compensation",
+    "is_core": 1,
+    "competency": "Employee Health & Safety"
+  },
+  {
+    "skill_id": 64,
+    "skill_name": "Occupational Diseases",
+    "segement": "None",
+    "line": "Workers' Compensation",
+    "is_core": 1,
+    "competency": "Employee Health & Safety"
+  },
+  {
+    "skill_id": 65,
+    "skill_name": "Driver Safety - Bodily Injury",
+    "segement": "None",
+    "line": "Workers' Compensation",
+    "is_core": 1,
+    "competency": "Employee Health & Safety"
+  },
+  {
+    "skill_id": 66,
+    "skill_name": "Occupational Diseases and Musculoskeletal Disorders",
+    "segement": "None",
+    "line": "Workers' Compensation",
+    "is_core": 1,
+    "competency": "Employee Health & Safety"
+  },
+  {
+    "skill_id": 67,
+    "skill_name": "Workflow Process",
+    "segement": "None",
+    "line": "Workers' Compensation",
+    "is_core": 1,
+    "competency": "Workflow Efficiency"
+  },
+  {
+    "skill_id": 68,
+    "skill_name": "Federal/State OSHA",
+    "segement": "None",
+    "line": "Workers' Compensation",
+    "is_core": 1,
+    "competency": "Codes & Regulations - WC"
+  },
+  {
+    "skill_id": 69,
+    "skill_name": "ADA (Americans w/ Disabilities Act)",
+    "segement": "None",
+    "line": "Workers' Compensation",
+    "is_core": 1,
+    "competency": "Codes & Regulations - WC"
+  },
+  {
+    "skill_id": 70,
+    "skill_name": "ANSI (American National Standard Institute)",
+    "segement": "None",
+    "line": "Workers' Compensation",
+    "is_core": 1,
+    "competency": "Codes & Regulations - WC"
+  },
+  {
+    "skill_id": 71,
+    "skill_name": "Background Check",
+    "segement": "None",
+    "line": "Auto",
+    "is_core": 1,
+    "competency": "Driver Selection"
+  },
+  {
+    "skill_id": 72,
+    "skill_name": "MVR",
+    "segement": "None",
+    "line": "Auto",
+    "is_core": 1,
+    "competency": "Driver Selection"
+  },
+  {
+    "skill_id": 73,
+    "skill_name": "FMCSR (Federal Motor Carrier Safety Regulation)",
+    "segement": "None",
+    "line": "Auto",
+    "is_core": 1,
+    "competency": "Codes & Regulations - Auto"
+  },
+  {
+    "skill_id": 74,
+    "skill_name": "CDL (Commercial Drivers License)",
+    "segement": "None",
+    "line": "Auto",
+    "is_core": 1,
+    "competency": "Codes & Regulations - Auto"
+  },
+  {
+    "skill_id": 75,
+    "skill_name": "DOT (Dept. of Transportation)",
+    "segement": "None",
+    "line": "Auto",
+    "is_core": 1,
+    "competency": "Codes & Regulations - Auto"
+  },
+  {
+    "skill_id": 76,
+    "skill_name": "Fleet Classification",
+    "segement": "None",
+    "line": "Auto",
+    "is_core": 1,
+    "competency": "Fleet/Vehicle"
+  },
+  {
+    "skill_id": 77,
+    "skill_name": "Vehicle Usage",
+    "segement": "None",
+    "line": "Auto",
+    "is_core": 1,
+    "competency": "Fleet/Vehicle"
+  },
+  {
+    "skill_id": 78,
+    "skill_name": "Vehicle Inspection & Maintenance",
+    "segement": "None",
+    "line": "Auto",
+    "is_core": 1,
+    "competency": "Fleet/Vehicle"
+  },
+  {
+    "skill_id": 79,
+    "skill_name": "Hired/Non-Owned",
+    "segement": "None",
+    "line": "Auto",
+    "is_core": 1,
+    "competency": "Company, Policies & Practices"
+  },
+  {
+    "skill_id": 80,
+    "skill_name": "Negligent Entrustment",
+    "segement": "None",
+    "line": "Auto",
+    "is_core": 1,
+    "competency": "Company, Policies & Practices"
+  },
+  {
+    "skill_id": 81,
+    "skill_name": "Personal Use",
+    "segement": "None",
+    "line": "Auto",
+    "is_core": 1,
+    "competency": "Company, Policies & Practices"
+  },
+  {
+    "skill_id": 82,
+    "skill_name": "Driver Distraction",
+    "segement": "None",
+    "line": "Auto",
+    "is_core": 1,
+    "competency": "Company, Policies & Practices"
+  },
+  {
+    "skill_id": 83,
+    "skill_name": "Pedestrian Walkway Safety",
+    "segement": "None",
+    "line": "General Liability",
+    "is_core": 1,
+    "competency": "Public Protection on Insured's Premise"
+  },
+  {
+    "skill_id": 84,
+    "skill_name": "Life Safety & Emergency Planning",
+    "segement": "None",
+    "line": "General Liability",
+    "is_core": 1,
+    "competency": "Public Protection on Insured's Premise"
+  },
+  {
+    "skill_id": 85,
+    "skill_name": "Security (Personal & Physical) including special events",
+    "segement": "None",
+    "line": "General Liability",
+    "is_core": 1,
+    "competency": "Public Protection on Insured's Premise"
+  },
+  {
+    "skill_id": 86,
+    "skill_name": "Attractive Nuisances",
+    "segement": "None",
+    "line": "General Liability",
+    "is_core": 1,
+    "competency": "Public Protection on Insured's Premise"
+  },
+  {
+    "skill_id": 87,
+    "skill_name": "Knowledge of Delivery & Installation, Maintenance operations",
+    "segement": "None",
+    "line": "General Liability",
+    "is_core": 1,
+    "competency": "Off Premise"
+  },
+  {
+    "skill_id": 88,
+    "skill_name": "Identification of Sales/Consulting operations",
+    "segement": "None",
+    "line": "General Liability",
+    "is_core": 1,
+    "competency": "Off Premise"
+  },
+  {
+    "skill_id": 89,
+    "skill_name": "Hold Harmless",
+    "segement": "None",
+    "line": "General Liability",
+    "is_core": 1,
+    "competency": "Contracts"
+  },
+  {
+    "skill_id": 90,
+    "skill_name": "Risk Transfer",
+    "segement": "None",
+    "line": "General Liability",
+    "is_core": 1,
+    "competency": "Contracts"
+  },
+  {
+    "skill_id": 91,
+    "skill_name": "Warranties",
+    "segement": "None",
+    "line": "General Liability",
+    "is_core": 1,
+    "competency": "Contracts"
+  },
+  {
+    "skill_id": 92,
+    "skill_name": "Sub-Contractors",
+    "segement": "None",
+    "line": "General Liability",
+    "is_core": 1,
+    "competency": "Contracts"
+  },
+  {
+    "skill_id": 93,
+    "skill_name": "Libel/Slander",
+    "segement": "None",
+    "line": "General Liability",
+    "is_core": 1,
+    "competency": "PIAI (Personal Injury Advertising Injury)"
+  },
+  {
+    "skill_id": 94,
+    "skill_name": "Copyright Infringement",
+    "segement": "None",
+    "line": "General Liability",
+    "is_core": 1,
+    "competency": "PIAI (Personal Injury Advertising Injury)"
+  },
+  {
+    "skill_id": 95,
+    "skill_name": "Misappropriation of Use",
+    "segement": "None",
+    "line": "General Liability",
+    "is_core": 1,
+    "competency": "PIAI (Personal Injury Advertising Injury)"
+  },
+  {
+    "skill_id": 96,
+    "skill_name": "Invasion of Privacy",
+    "segement": "None",
+    "line": "General Liability",
+    "is_core": 1,
+    "competency": "PIAI (Personal Injury Advertising Injury)"
+  },
+  {
+    "skill_id": 97,
+    "skill_name": "Product Research and Development",
+    "segement": "None",
+    "line": "Product Liability",
+    "is_core": 1,
+    "competency": "Design of Products"
+  },
+  {
+    "skill_id": 98,
+    "skill_name": "Labels, Warnings & Instructions",
+    "segement": "None",
+    "line": "Product Liability",
+    "is_core": 1,
+    "competency": "Design of Products"
+  },
+  {
+    "skill_id": 99,
+    "skill_name": "Product Use, Misuse & Failure",
+    "segement": "None",
+    "line": "Product Liability",
+    "is_core": 1,
+    "competency": "Design of Products"
+  },
+  {
+    "skill_id": 100,
+    "skill_name": "Product Design Processes & Specifications",
+    "segement": "None",
+    "line": "Product Liability",
+    "is_core": 1,
+    "competency": "Design of Products"
+  },
+  {
+    "skill_id": 101,
+    "skill_name": "Product Manufacturing, including QA, packaging & Storage",
+    "segement": "None",
+    "line": "Product Liability",
+    "is_core": 1,
+    "competency": "Manufacturing of Products"
+  },
+  {
+    "skill_id": 102,
+    "skill_name": "Product Traceability",
+    "segement": "None",
+    "line": "Product Liability",
+    "is_core": 1,
+    "competency": "Manufacturing of Products"
+  },
+  {
+    "skill_id": 103,
+    "skill_name": "Product Tiering e.g., after market products",
+    "segement": "None",
+    "line": "Product Liability",
+    "is_core": 1,
+    "competency": "Manufacturing of Products"
+  },
+  {
+    "skill_id": 104,
+    "skill_name": "Supply Chain of Product Build Out",
+    "segement": "None",
+    "line": "Product Liability",
+    "is_core": 1,
+    "competency": "Manufacturing of Products"
+  },
+  {
+    "skill_id": 105,
+    "skill_name": "Complaint Handling Capabilities",
+    "segement": "None",
+    "line": "Product Liability",
+    "is_core": 1,
+    "competency": "Product in Marketplace"
+  },
+  {
+    "skill_id": 106,
+    "skill_name": "Recall Management",
+    "segement": "None",
+    "line": "Product Liability",
+    "is_core": 1,
+    "competency": "Product in Marketplace"
+  },
+  {
+    "skill_id": 107,
+    "skill_name": "Product Disposal",
+    "segement": "None",
+    "line": "Product Liability",
+    "is_core": 1,
+    "competency": "Product End Life"
+  },
+  {
+    "skill_id": 108,
+    "skill_name": "Public Notification of Product End Life",
+    "segement": "None",
+    "line": "Product Liability",
+    "is_core": 1,
+    "competency": "Product End Life"
+  },
+  {
+    "skill_id": 109,
+    "skill_name": "UL (Underwriting Laboratories)",
+    "segement": "None",
+    "line": "Product Liability",
+    "is_core": 1,
+    "competency": "Codes & Regulations -PL"
+  },
+  {
+    "skill_id": 110,
+    "skill_name": "CE Marking - conformity of EHS standard",
+    "segement": "None",
+    "line": "Product Liability",
+    "is_core": 1,
+    "competency": "Codes & Regulations -PL"
+  },
+  {
+    "skill_id": 111,
+    "skill_name": "ANSI (American National Standard Institute)",
+    "segement": "None",
+    "line": "Product Liability",
+    "is_core": 1,
+    "competency": "Codes & Regulations -PL"
+  },
+  {
+    "skill_id": 112,
+    "skill_name": "Builder's Risk",
+    "segement": "Construction",
+    "line": "Property",
+    "is_core": 0,
+    "competency": "Property - Construction"
+  },
+  {
+    "skill_id": 113,
+    "skill_name": "Contractors & Equipment",
+    "segement": "Construction",
+    "line": "Property",
+    "is_core": 0,
+    "competency": "Property - Construction"
+  },
+  {
+    "skill_id": 114,
+    "skill_name": "Transportation of Hazardous Materials",
+    "segement": "Construction",
+    "line": "Auto",
+    "is_core": 0,
+    "competency": "Auto - Construction"
+  },
+  {
+    "skill_id": 115,
+    "skill_name": "Transportation of Flammable Materials",
+    "segement": "Construction",
+    "line": "Auto",
+    "is_core": 0,
+    "competency": "Auto - Construction"
+  },
+  {
+    "skill_id": 116,
+    "skill_name": "Cranes & Riggings",
+    "segement": "Construction",
+    "line": "Auto",
+    "is_core": 0,
+    "competency": "Auto - Construction"
+  },
+  {
+    "skill_id": 117,
+    "skill_name": "Traffic Control",
+    "segement": "Construction",
+    "line": "General Liability",
+    "is_core": 0,
+    "competency": "GL - Construction"
+  },
+  {
+    "skill_id": 118,
+    "skill_name": "Faulty Construction",
+    "segement": "Construction",
+    "line": "General Liability",
+    "is_core": 0,
+    "competency": "GL - Construction"
+  },
+  {
+    "skill_id": 119,
+    "skill_name": "Knowledge of Constructability Standards (mixing & erecting) e.g., ACI standards",
+    "segement": "Construction",
+    "line": "Product Liability",
+    "is_core": 0,
+    "competency": "PL - Construction"
+  },
+  {
+    "skill_id": 120,
+    "skill_name": "Sprinkler Analysis",
+    "segement": "Durable Goods",
+    "line": "Property",
+    "is_core": 0,
+    "competency": "Property - Durable Goods"
+  },
+  {
+    "skill_id": 121,
+    "skill_name": "Commodity Classification",
+    "segement": "Durable Goods",
+    "line": "Property",
+    "is_core": 0,
+    "competency": "Property - Durable Goods"
+  },
+  {
+    "skill_id": 122,
+    "skill_name": "Transportation of Hazardous Materials",
+    "segement": "Durable Goods",
+    "line": "Auto",
+    "is_core": 0,
+    "competency": "Auto - Durable Goods"
+  },
+  {
+    "skill_id": 123,
+    "skill_name": "Transportation of Flammable Materials",
+    "segement": "Durable Goods",
+    "line": "Auto",
+    "is_core": 0,
+    "competency": "Auto - Durable Goods"
+  },
+  {
+    "skill_id": 124,
+    "skill_name": "Regulated Fleet - DOT",
+    "segement": "Durable Goods",
+    "line": "Auto",
+    "is_core": 0,
+    "competency": "Auto - Durable Goods"
+  },
+  {
+    "skill_id": 125,
+    "skill_name": "Knowledge of Water Damage & Control",
+    "segement": "Cultural Institutions",
+    "line": "Property",
+    "is_core": 0,
+    "competency": "Property - Cultural Institutions"
+  },
+  {
+    "skill_id": 126,
+    "skill_name": "Knowledge of Combustible Dust",
+    "segement": "Manufacturing",
+    "line": "Property",
+    "is_core": 0,
+    "competency": "Property - Manufacturing"
+  },
+  {
+    "skill_id": 127,
+    "skill_name": "Knowledge of Machine Values",
+    "segement": "Manufacturing",
+    "line": "Property",
+    "is_core": 0,
+    "competency": "Property - Manufacturing (Metals Automotive Component Parts)"
+  },
+  {
+    "skill_id": 128,
+    "skill_name": "Commodity Classification - Storage arrangement & Protection",
+    "segement": "Manufacturing",
+    "line": "Property",
+    "is_core": 0,
+    "competency": "Property - Manufacturing (Furniture, Apparel, Commercial Paper & Printing, Wood)"
+  },
+  {
+    "skill_id": 129,
+    "skill_name": "Industrial Hygiene - noise, respiratory",
+    "segement": "Manufacturing",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Manufacturing (Metals Automotive Component Parts)"
+  },
+  {
+    "skill_id": 130,
+    "skill_name": "Welding & Torching",
+    "segement": "Manufacturing",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Manufacturing (Metals Automotive Component Parts)"
+  },
+  {
+    "skill_id": 131,
+    "skill_name": "Machines including Plasma Cutting",
+    "segement": "Manufacturing",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Manufacturing (Metals Automotive Component Parts)"
+  },
+  {
+    "skill_id": 132,
+    "skill_name": "Solvents, equipment pressurized gas, adhesives, sealants, cutting oils, explosive metals",
+    "segement": "Manufacturing",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Manufacturing (Metals Automotive Component Parts)"
+  },
+  {
+    "skill_id": 133,
+    "skill_name": "Industrial Ergonomics",
+    "segement": "Manufacturing",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Manufacturing (Metals Automotive Component Parts)"
+  },
+  {
+    "skill_id": 134,
+    "skill_name": "Faulty Construction",
+    "segement": "Manufacturing",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Manufacturing (Furniture, Apparel, Commercial Paper & Printing, Wood)"
+  },
+  {
+    "skill_id": 135,
+    "skill_name": "Finishes & Solvents",
+    "segement": "Manufacturing",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Manufacturing (Furniture, Apparel, Commercial Paper & Printing, Wood)"
+  },
+  {
+    "skill_id": 136,
+    "skill_name": "Industrial Hygiene - noise, respiratory, airborne hazards",
+    "segement": "Manufacturing",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Manufacturing (Furniture, Apparel, Commercial Paper & Printing, Wood)"
+  },
+  {
+    "skill_id": 137,
+    "skill_name": "Tailoring Tools",
+    "segement": "Manufacturing",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Manufacturing (Furniture, Apparel, Commercial Paper & Printing, Wood)"
+  },
+  {
+    "skill_id": 138,
+    "skill_name": "Irons",
+    "segement": "Manufacturing",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Manufacturing (Furniture, Apparel, Commercial Paper & Printing, Wood)"
+  },
+  {
+    "skill_id": 139,
+    "skill_name": "Industrial Ergonomics",
+    "segement": "Manufacturing",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Manufacturing (Furniture, Apparel, Commercial Paper & Printing, Wood)"
+  },
+  {
+    "skill_id": 140,
+    "skill_name": "Transportation of Hazardous Materials",
+    "segement": "Manufacturing",
+    "line": "Auto",
+    "is_core": 0,
+    "competency": "Auto - Manufacturing"
+  },
+  {
+    "skill_id": 141,
+    "skill_name": "Transportation of Flammable Materials",
+    "segement": "Manufacturing",
+    "line": "Auto",
+    "is_core": 0,
+    "competency": "Auto - Manufacturing"
+  },
+  {
+    "skill_id": 142,
+    "skill_name": "Regulated Fleet - DOT",
+    "segement": "Manufacturing",
+    "line": "Auto",
+    "is_core": 0,
+    "competency": "Auto - Manufacturing"
+  },
+  {
+    "skill_id": 143,
+    "skill_name": "PIAI - Libel/Slander, Copyright, Misappropriation of Use, Invasion of privacy",
+    "segement": "Manufacturing",
+    "line": "General Liability",
+    "is_core": 0,
+    "competency": "GL - Manufacturing"
+  },
+  {
+    "skill_id": 144,
+    "skill_name": "Product Application",
+    "segement": "Manufacturing",
+    "line": "Product Liability",
+    "is_core": 0,
+    "competency": "PL - Manufacturing (Furniture, Apparel, Commercial Paper &  Printing, Wood)"
+  },
+  {
+    "skill_id": 145,
+    "skill_name": "Knowledge of Theft Exposure",
+    "segement": "Real Estate",
+    "line": "Product Liability",
+    "is_core": 0,
+    "competency": "Property - Real Estate"
+  },
+  {
+    "skill_id": 146,
+    "skill_name": "Knowledge of Water Damage & Control",
+    "segement": "Real Estate",
+    "line": "Product Liability",
+    "is_core": 0,
+    "competency": "Property - Real Estate"
+  },
+  {
+    "skill_id": 147,
+    "skill_name": "PIAI - Libel/Slander, Copyright, Misappropriation of Use, Invasion of Privacy",
+    "segement": "Real Estate",
+    "line": "General Liability",
+    "is_core": 0,
+    "competency": "GL - Real Estate"
+  },
+  {
+    "skill_id": 148,
+    "skill_name": "Construction Safety",
+    "segement": "Real Estate",
+    "line": "General Liability",
+    "is_core": 0,
+    "competency": "GL - Professional Services (Architects, Engineers, & Design Consultants)"
+  },
+  {
+    "skill_id": 149,
+    "skill_name": "Claims Investigation",
+    "segement": "None",
+    "line": "Business",
+    "is_core": 0,
+    "competency": "Claims Investigation"
+  },
+  {
+    "skill_id": 150,
+    "skill_name": "Mentoring",
+    "segement": "None",
+    "line": "Business",
+    "is_core": 0,
+    "competency": "Management Skills"
+  },
+  {
+    "skill_id": 151,
+    "skill_name": "Project Management",
+    "segement": "None",
+    "line": "Business",
+    "is_core": 0,
+    "competency": "Management Skills"
+  },
+  {
+    "skill_id": 152,
+    "skill_name": "Strategy Execution",
+    "segement": "None",
+    "line": "Business",
+    "is_core": 0,
+    "competency": "Business Skills"
+  },
+  {
+    "skill_id": 153,
+    "skill_name": "Enterprise Contribution",
+    "segement": "None",
+    "line": "Business",
+    "is_core": 0,
+    "competency": "Business Skills"
+  },
+  {
+    "skill_id": 154,
+    "skill_name": "Software Security",
+    "segement": "None",
+    "line": "Cyber",
+    "is_core": 0,
+    "competency": "Cyber Monoline"
+  },
+  {
+    "skill_id": 155,
+    "skill_name": "Vendor Management",
+    "segement": "None",
+    "line": "Cyber",
+    "is_core": 0,
+    "competency": "Cyber Monoline"
+  },
+  {
+    "skill_id": 156,
+    "skill_name": "Network Communications",
+    "segement": "None",
+    "line": "Cyber",
+    "is_core": 0,
+    "competency": "Cyber Monoline"
+  },
+  {
+    "skill_id": 157,
+    "skill_name": "Data Security",
+    "segement": "None",
+    "line": "Cyber",
+    "is_core": 0,
+    "competency": "Cyber Monoline"
+  },
+  {
+    "skill_id": 158,
+    "skill_name": "Privacy Rights - Payment Card Industry (PCI), HIPPA, COPA (Child Online Protection Act), Fair Credit Reporting Act",
+    "segement": "None",
+    "line": "Cyber",
+    "is_core": 0,
+    "competency": "Cyber Monoline"
+  },
+  {
+    "skill_id": 159,
+    "skill_name": "Knowledge of Inland Marine",
+    "segement": "Construction",
+    "line": "Business",
+    "is_core": 0,
+    "competency": "CNA Insurance - Construction"
+  },
+  {
+    "skill_id": 160,
+    "skill_name": "Knowledge of CCIP/OCIP",
+    "segement": "Construction",
+    "line": "Business",
+    "is_core": 0,
+    "competency": "CNA Insurance - Construction"
+  },
+  {
+    "skill_id": 161,
+    "skill_name": "Excavation",
+    "segement": "Construction",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Construction (Utility Contractors)"
+  },
+  {
+    "skill_id": 162,
+    "skill_name": "Cross Bore Worker Safety",
+    "segement": "Construction",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Construction (Utility Contractors)"
+  },
+  {
+    "skill_id": 163,
+    "skill_name": "Shoring & Trenching",
+    "segement": "Construction",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Construction (Utility Contractors)"
+  },
+  {
+    "skill_id": 164,
+    "skill_name": "Fall Protection",
+    "segement": "Construction",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Construction (Roofers)"
+  },
+  {
+    "skill_id": 165,
+    "skill_name": "Torch Use (CERTA)",
+    "segement": "Construction",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Construction (Roofers)"
+  },
+  {
+    "skill_id": 166,
+    "skill_name": "Cranes, Slings, Rigging",
+    "segement": "Construction",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Construction (Street & Road)"
+  },
+  {
+    "skill_id": 167,
+    "skill_name": "Utility Locate & Protocols",
+    "segement": "Construction",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Construction (Street & Road)"
+  },
+  {
+    "skill_id": 168,
+    "skill_name": "Water tests & Groundwater info",
+    "segement": "Construction",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Construction (Street & Road)"
+  },
+  {
+    "skill_id": 169,
+    "skill_name": "Shoring & Trenching",
+    "segement": "Construction",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Construction (Street & Road)"
+  },
+  {
+    "skill_id": 170,
+    "skill_name": "Fall Protection",
+    "segement": "Construction",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Construction (Tunnels, Bridge Erection)"
+  },
+  {
+    "skill_id": 171,
+    "skill_name": "Industrial Hygiene - Silica",
+    "segement": "Construction",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Construction (Tunnels, Bridge Erection)"
+  },
+  {
+    "skill_id": 172,
+    "skill_name": "Cranes, Slings, Rigging",
+    "segement": "Construction",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Construction (Tunnels, Bridge Erection)"
+  },
+  {
+    "skill_id": 173,
+    "skill_name": "Water tests & groundwater info",
+    "segement": "Construction",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Construction (Tunnels, Bridge Erection)"
+  },
+  {
+    "skill_id": 174,
+    "skill_name": "Industrial Ergonomics",
+    "segement": "Construction",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Construction (Tunnels, Bridge Erection)"
+  },
+  {
+    "skill_id": 175,
+    "skill_name": "Pool Pop Prevention",
+    "segement": "Construction",
+    "line": "General Liability",
+    "is_core": 0,
+    "competency": "GL - Construction (Pools/Spas)"
+  },
+  {
+    "skill_id": 176,
+    "skill_name": "Water Intrusion",
+    "segement": "Construction",
+    "line": "General Liability",
+    "is_core": 0,
+    "competency": "GL - Construction (Pools/Spas)"
+  },
+  {
+    "skill_id": 177,
+    "skill_name": "Knowledge of Transit Coverage",
+    "segement": "Manufacturing",
+    "line": "Business",
+    "is_core": 0,
+    "competency": "CNA Insurance - Manufacturing"
+  },
+  {
+    "skill_id": 178,
+    "skill_name": "E&O Coverage",
+    "segement": "Manufacturing",
+    "line": "E&O",
+    "is_core": 0,
+    "competency": "E&O - Manufacturing"
+  },
+  {
+    "skill_id": 179,
+    "skill_name": "Intellectual Property",
+    "segement": "Manufacturing",
+    "line": "E&O",
+    "is_core": 0,
+    "competency": "E&O - Manufacturing"
+  },
+  {
+    "skill_id": 180,
+    "skill_name": "3rd Party Recall",
+    "segement": "Manufacturing",
+    "line": "E&O",
+    "is_core": 0,
+    "competency": "E&O - Manufacturing"
+  },
+  {
+    "skill_id": 181,
+    "skill_name": "Business Interruption (BI)",
+    "segement": "Manufacturing",
+    "line": "Property",
+    "is_core": 0,
+    "competency": "Property - Manufacturing (Industrial Machinery, Commercial Electrical Equipment/Appliances, Transporation Equipment)"
+  },
+  {
+    "skill_id": 182,
+    "skill_name": "Commodity Classification - Storage Arrangement & Protection",
+    "segement": "Manufacturing",
+    "line": "Property",
+    "is_core": 0,
+    "competency": "Property - Manufacturing (Plastics)"
+  },
+  {
+    "skill_id": 183,
+    "skill_name": "Industrial Hygiene  (e.g., chemical exposures, lasers, nano technology)",
+    "segement": "Manufacturing",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Manufacturing (Electronic Component & Hardware Manufacturing)"
+  },
+  {
+    "skill_id": 184,
+    "skill_name": "Industrial Ergonomics",
+    "segement": "Manufacturing",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Manufacturing (Electronic Component & Hardware Manufacturing)"
+  },
+  {
+    "skill_id": 185,
+    "skill_name": "Industrial Hygiene - noise, respiratory",
+    "segement": "Manufacturing",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Manufacturing (Industrial Machinery, Commercial Electrical, Equipment/Appliances, Transportation Equipment"
+  },
+  {
+    "skill_id": 186,
+    "skill_name": "Crime - Employee Dishonesty & Pilferage",
+    "segement": "Manufacturing",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Manufacturing (Industrial Machinery, Commercial Electrical, Equipment/Appliances, Transportation Equipment"
+  },
+  {
+    "skill_id": 187,
+    "skill_name": "Welding & Torching",
+    "segement": "Manufacturing",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Manufacturing (Industrial Machinery, Commercial Electrical, Equipment/Appliances, Transportation Equipment"
+  },
+  {
+    "skill_id": 188,
+    "skill_name": "Machines including Plasma Cutting",
+    "segement": "Manufacturing",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Manufacturing (Industrial Machinery, Commercial Electrical, Equipment/Appliances, Transportation Equipment"
+  },
+  {
+    "skill_id": 189,
+    "skill_name": "Solvents, equipment pressurized gas, adhesives, sealants, cutting oils, explosive metals",
+    "segement": "Manufacturing",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Manufacturing (Industrial Machinery, Commercial Electrical, Equipment/Appliances, Transportation Equipment"
+  },
+  {
+    "skill_id": 190,
+    "skill_name": "Industrial Ergonomics",
+    "segement": "Manufacturing",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Manufacturing (Industrial Machinery, Commercial Electrical, Equipment/Appliances, Transportation Equipment"
+  },
+  {
+    "skill_id": 191,
+    "skill_name": "Machinery Fluid Management",
+    "segement": "Manufacturing",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Manufacturing (Plastics)"
+  },
+  {
+    "skill_id": 192,
+    "skill_name": "Industrial Hygiene - airborne, biological, fumes/gases hazards",
+    "segement": "Manufacturing",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Manufacturing (Plastics)"
+  },
+  {
+    "skill_id": 193,
+    "skill_name": "Solvents, equipment pressurized gas, adhesives, sealants, cutting oils, explosive metals",
+    "segement": "Manufacturing",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Manufacturing (Plastics)"
+  },
+  {
+    "skill_id": 194,
+    "skill_name": "Industrial Ergonomics",
+    "segement": "Manufacturing",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Manufacturing (Plastics)"
+  },
+  {
+    "skill_id": 195,
+    "skill_name": "Heavy Machinery",
+    "segement": "Manufacturing",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Manufacturing (Pre Cast)"
+  },
+  {
+    "skill_id": 196,
+    "skill_name": "Silica",
+    "segement": "Manufacturing",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Manufacturing (Pre Cast)"
+  },
+  {
+    "skill_id": 197,
+    "skill_name": "Bridge Cranes",
+    "segement": "Manufacturing",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Manufacturing (Pre Cast)"
+  },
+  {
+    "skill_id": 198,
+    "skill_name": "Welding & Torching",
+    "segement": "Manufacturing",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Manufacturing (Pre Cast)"
+  },
+  {
+    "skill_id": 199,
+    "skill_name": "Toxic chemicals spills - air pollution & wastewater contamination",
+    "segement": "Manufacturing",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Manufacturing (Pre Cast)"
+  },
+  {
+    "skill_id": 200,
+    "skill_name": "Nano Technology",
+    "segement": "Manufacturing",
+    "line": "Product Liability",
+    "is_core": 0,
+    "competency": "PL - Manufacturing (Electronic Component & Hardware Manufacturing)"
+  },
+  {
+    "skill_id": 201,
+    "skill_name": "E&O Coverage",
+    "segement": "Technology",
+    "line": "E&O",
+    "is_core": 0,
+    "competency": "E&O - Technology"
+  },
+  {
+    "skill_id": 202,
+    "skill_name": "Intellectual Property",
+    "segement": "Technology",
+    "line": "E&O",
+    "is_core": 0,
+    "competency": "E&O - Technology"
+  },
+  {
+    "skill_id": 203,
+    "skill_name": "3rd party recall",
+    "segement": "Technology",
+    "line": "E&O",
+    "is_core": 0,
+    "competency": "E&O - Technology"
+  },
+  {
+    "skill_id": 204,
+    "skill_name": "Clean Room",
+    "segement": "Technology",
+    "line": "Property",
+    "is_core": 0,
+    "competency": "Property - Technology (Electronic Component & Hardware Manufcaturing w/Semi Conductor Fabless)"
+  },
+  {
+    "skill_id": 205,
+    "skill_name": "Specialized Protection System",
+    "segement": "Technology",
+    "line": "Property",
+    "is_core": 0,
+    "competency": "Property - Technology (Electronic Component & Hardware Manufcaturing w/Semi Conductor Fabrication)"
+  },
+  {
+    "skill_id": 206,
+    "skill_name": "Protection Systems",
+    "segement": "Technology",
+    "line": "Property",
+    "is_core": 0,
+    "competency": "Property - Technology (Electronic Component & Hardware Manufcaturing w/Semi Conductor Fabrication)"
+  },
+  {
+    "skill_id": 207,
+    "skill_name": "Fire Alarm Systems",
+    "segement": "Technology",
+    "line": "Property",
+    "is_core": 0,
+    "competency": "Property - Technology (Electronic Component & Hardware Manufcaturing w/Semi Conductor Fabrication)"
+  },
+  {
+    "skill_id": 208,
+    "skill_name": "Burglary & Theft",
+    "segement": "Technology",
+    "line": "Property",
+    "is_core": 0,
+    "competency": "Property - Technology (Electronic Component & Hardware Manufcaturing w/Semi Conductor Fabrication)"
+  },
+  {
+    "skill_id": 209,
+    "skill_name": "Common Hazards (e.g., electrical & HVAC)",
+    "segement": "Technology",
+    "line": "Property",
+    "is_core": 0,
+    "competency": "Property - Technology (Electronic Component & Hardware Manufcaturing w/Semi Conductor Fabrication)"
+  },
+  {
+    "skill_id": 210,
+    "skill_name": "Special Hazards - flammable liquids",
+    "segement": "Technology",
+    "line": "Property",
+    "is_core": 0,
+    "competency": "Property - Technology (Electronic Component & Hardware Manufcaturing w/Semi Conductor Fabrication)"
+  },
+  {
+    "skill_id": 211,
+    "skill_name": "Clean Room w/ wet benches",
+    "segement": "Technology",
+    "line": "Property",
+    "is_core": 0,
+    "competency": "Property - Technology (Electronic Component & Hardware Manufcaturing w/Semi Conductor Fabrication)"
+  },
+  {
+    "skill_id": 212,
+    "skill_name": "Specialized Protection Systems",
+    "segement": "Technology",
+    "line": "Property",
+    "is_core": 0,
+    "competency": "Property - Technology (Software & IT Services/Data Center)"
+  },
+  {
+    "skill_id": 213,
+    "skill_name": "Protection Systems",
+    "segement": "Technology",
+    "line": "Property",
+    "is_core": 0,
+    "competency": "Property - Technology (Software & IT Services/Data Center)"
+  },
+  {
+    "skill_id": 214,
+    "skill_name": "Fire Alarm Systems",
+    "segement": "Technology",
+    "line": "Property",
+    "is_core": 0,
+    "competency": "Property - Technology (Software & IT Services/Data Center)"
+  },
+  {
+    "skill_id": 215,
+    "skill_name": "Burglary & Theft",
+    "segement": "Technology",
+    "line": "Property",
+    "is_core": 0,
+    "competency": "Property - Technology (Software & IT Services/Data Center)"
+  },
+  {
+    "skill_id": 216,
+    "skill_name": "Common Hazards  (e.g., electrical & HVAC)",
+    "segement": "Technology",
+    "line": "Property",
+    "is_core": 0,
+    "competency": "Property - Technology (Software & IT Services/Data Center)"
+  },
+  {
+    "skill_id": 217,
+    "skill_name": "E&O Coverage",
+    "segement": "Healthcare",
+    "line": "E&O",
+    "is_core": 0,
+    "competency": "E&O - Healthcare"
+  },
+  {
+    "skill_id": 218,
+    "skill_name": "Intellectual Property",
+    "segement": "Healthcare",
+    "line": "E&O",
+    "is_core": 0,
+    "competency": "E&O - Healthcare"
+  },
+  {
+    "skill_id": 219,
+    "skill_name": "3rd party recall",
+    "segement": "Healthcare",
+    "line": "E&O",
+    "is_core": 0,
+    "competency": "E&O - Healthcare"
+  },
+  {
+    "skill_id": 220,
+    "skill_name": "Special Hazards",
+    "segement": "Healthcare",
+    "line": "Property",
+    "is_core": 0,
+    "competency": "Property - Healthcare"
+  },
+  {
+    "skill_id": 221,
+    "skill_name": "Specialized Protection Systems",
+    "segement": "Healthcare",
+    "line": "Property",
+    "is_core": 0,
+    "competency": "Property - Healthcare"
+  },
+  {
+    "skill_id": 222,
+    "skill_name": "Sprinkler Plan Review",
+    "segement": "Healthcare",
+    "line": "Property",
+    "is_core": 0,
+    "competency": "Property - Healthcare"
+  },
+  {
+    "skill_id": 223,
+    "skill_name": "Inland Marine",
+    "segement": "Healthcare",
+    "line": "Property",
+    "is_core": 0,
+    "competency": "Property - Healthcare"
+  },
+  {
+    "skill_id": 224,
+    "skill_name": "Business interruption  (BI)",
+    "segement": "Healthcare",
+    "line": "Property",
+    "is_core": 0,
+    "competency": "Property - Healthcare"
+  },
+  {
+    "skill_id": 225,
+    "skill_name": "Knowledge of Machine Values",
+    "segement": "Healthcare",
+    "line": "Property",
+    "is_core": 0,
+    "competency": "Property - Healthcare"
+  },
+  {
+    "skill_id": 226,
+    "skill_name": "Knowledge of Water Damage & Control",
+    "segement": "Healthcare",
+    "line": "Property",
+    "is_core": 0,
+    "competency": "Property - Healthcare"
+  },
+  {
+    "skill_id": 227,
+    "skill_name": "Laboratory Employee Safety (e.g., biohazards)",
+    "segement": "Healthcare",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Healthcare (Hospital)"
+  },
+  {
+    "skill_id": 228,
+    "skill_name": "Chemistry Knowledge",
+    "segement": "Healthcare",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Healthcare (Hospital)"
+  },
+  {
+    "skill_id": 229,
+    "skill_name": "IH - Biological exposures",
+    "segement": "Healthcare",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Healthcare (Hospital)"
+  },
+  {
+    "skill_id": 230,
+    "skill_name": "IH - Radiation",
+    "segement": "Healthcare",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Healthcare (Hospital)"
+  },
+  {
+    "skill_id": 231,
+    "skill_name": "Patient Handling",
+    "segement": "Healthcare",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Healthcare (Hospital)"
+  },
+  {
+    "skill_id": 232,
+    "skill_name": "Para Transport",
+    "segement": "Healthcare",
+    "line": "Auto",
+    "is_core": 0,
+    "competency": "Auto - Healthcare"
+  },
+  {
+    "skill_id": 233,
+    "skill_name": "Non-emergency Medical Transport",
+    "segement": "Healthcare",
+    "line": "Auto",
+    "is_core": 0,
+    "competency": "Auto - Healthcare"
+  },
+  {
+    "skill_id": 234,
+    "skill_name": "Life Safety & Emergency Planning",
+    "segement": "Healthcare",
+    "line": "General Liability",
+    "is_core": 0,
+    "competency": "GL - Healthcare"
+  },
+  {
+    "skill_id": 235,
+    "skill_name": "Specialized Protection Systems",
+    "segement": "Life Science",
+    "line": "Property",
+    "is_core": 0,
+    "competency": "Property - Life Science"
+  },
+  {
+    "skill_id": 236,
+    "skill_name": "Knowledge of Certified Production Lines",
+    "segement": "Life Science",
+    "line": "Property",
+    "is_core": 0,
+    "competency": "Property - Life Science"
+  },
+  {
+    "skill_id": 237,
+    "skill_name": "Clean Room & Laboratory",
+    "segement": "Life Science",
+    "line": "Property",
+    "is_core": 0,
+    "competency": "Property - Life Science"
+  },
+  {
+    "skill_id": 238,
+    "skill_name": "Vivarium Exposure",
+    "segement": "Life Science",
+    "line": "Property",
+    "is_core": 0,
+    "competency": "Property - Life Science"
+  },
+  {
+    "skill_id": 239,
+    "skill_name": "Identification of finished goods",
+    "segement": "Life Science",
+    "line": "Property",
+    "is_core": 0,
+    "competency": "Property - Life Science"
+  },
+  {
+    "skill_id": 240,
+    "skill_name": "Specialized hazards - combustible, dust & flammable liquids",
+    "segement": "Life Science",
+    "line": "Property",
+    "is_core": 0,
+    "competency": "Property - Life Science"
+  },
+  {
+    "skill_id": 241,
+    "skill_name": "Business Interruption (BI)",
+    "segement": "Life Science",
+    "line": "Property",
+    "is_core": 0,
+    "competency": "Property - Life Science"
+  },
+  {
+    "skill_id": 242,
+    "skill_name": "Specialized operations e.g. nano, laser, sterilization",
+    "segement": "Life Science",
+    "line": "Property",
+    "is_core": 0,
+    "competency": "Property - Life Science"
+  },
+  {
+    "skill_id": 243,
+    "skill_name": "Laboratory Employee Safety (e.g., biohazards)",
+    "segement": "Life Science",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Life Science"
+  },
+  {
+    "skill_id": 244,
+    "skill_name": "Chemistry Knowledge",
+    "segement": "Life Science",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Life Science"
+  },
+  {
+    "skill_id": 245,
+    "skill_name": "IH - Biological Exposures",
+    "segement": "Life Science",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Life Science"
+  },
+  {
+    "skill_id": 246,
+    "skill_name": "Occupational Diseases",
+    "segement": "Life Science",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Life Science"
+  },
+  {
+    "skill_id": 247,
+    "skill_name": "Lab Ergonomics",
+    "segement": "Life Science",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Life Science"
+  },
+  {
+    "skill_id": 248,
+    "skill_name": "Active Pharmaceutical  Ingredient Chemistry  Knowledge",
+    "segement": "Life Science",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Life Science (Pharmaceutical Companies)"
+  },
+  {
+    "skill_id": 249,
+    "skill_name": "Radioactive materials",
+    "segement": "Life Science",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Life Science (Pharmaceutical Companies)"
+  },
+  {
+    "skill_id": 250,
+    "skill_name": "Microbiology",
+    "segement": "Life Science",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Life Science (Pharmaceutical Companies)"
+  },
+  {
+    "skill_id": 251,
+    "skill_name": "Occupational Diseases",
+    "segement": "Life Science",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Life Science (Pharmaceutical Companies)"
+  },
+  {
+    "skill_id": 252,
+    "skill_name": "Lab Ergonomics",
+    "segement": "Life Science",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Life Science (Pharmaceutical Companies)"
+  },
+  {
+    "skill_id": 253,
+    "skill_name": "Knowledge of Special Transportation of Hazardous Materials, Chemicals",
+    "segement": "Life Science",
+    "line": "Auto",
+    "is_core": 0,
+    "competency": "Auto - Life Science"
+  },
+  {
+    "skill_id": 254,
+    "skill_name": "Contracts",
+    "segement": "Life Science",
+    "line": "General Liability",
+    "is_core": 0,
+    "competency": "GL - Life Science"
+  },
+  {
+    "skill_id": 255,
+    "skill_name": "Knowledge of Production",
+    "segement": "Life Science",
+    "line": "Product Liability",
+    "is_core": 0,
+    "competency": "PL - Life Science"
+  },
+  {
+    "skill_id": 256,
+    "skill_name": "FDA including product recall & CAPA",
+    "segement": "Life Science",
+    "line": "Product Liability",
+    "is_core": 0,
+    "competency": "PL - Life Science"
+  },
+  {
+    "skill_id": 257,
+    "skill_name": "Sub-contractor Relationships to Meet Regulatory Standards",
+    "segement": "Life Science",
+    "line": "Product Liability",
+    "is_core": 0,
+    "competency": "PL - Life Science (Academic Institutions/Healthcare Org)"
+  },
+  {
+    "skill_id": 258,
+    "skill_name": "Sub-contractor Relationships to Meet Regulatory Standards",
+    "segement": "Life Science",
+    "line": "Product Liability",
+    "is_core": 0,
+    "competency": "PL - Life Science (Contractors, Manufacturing Org (CMO), Research Org (CRO), Service Org (CSO))"
+  },
+  {
+    "skill_id": 259,
+    "skill_name": "Specified Regulations e.g., FDA",
+    "segement": "Life Science",
+    "line": "Product Liability",
+    "is_core": 0,
+    "competency": "PL - Life Science (Medical Device Manufacturers)"
+  },
+  {
+    "skill_id": 260,
+    "skill_name": "Knowledge of US Long Shore & Harbor Safety Act",
+    "segement": "Federal Gov Contractors",
+    "line": "Workers' Compensation",
+    "is_core": 0,
+    "competency": "WC - Federal Gov Contractors"
+  },
+  {
+    "skill_id": 261,
+    "skill_name": "Knowledge of DBA (Defense Base Act)",
+    "segement": "Federal Gov Contractors",
+    "line": "General Liability",
+    "is_core": 0,
+    "competency": "GL - Federal Gov Contractors"
+  },
+  {
+    "skill_id": 262,
+    "skill_name": "Pressure Vessels",
+    "segement": "None",
+    "line": "EB",
+    "is_core": 1,
+    "competency": "Facility Equipment & Systems"
+  },
+  {
+    "skill_id": 263,
+    "skill_name": "Backup Generator",
+    "segement": "None",
+    "line": "EB",
+    "is_core": 1,
+    "competency": "Facility Equipment & Systems"
+  },
+  {
+    "skill_id": 264,
+    "skill_name": "High Pressure Boiler",
+    "segement": "None",
+    "line": "EB",
+    "is_core": 1,
+    "competency": "Facility Equipment & Systems"
+  },
+  {
+    "skill_id": 265,
+    "skill_name": "Air Condition System",
+    "segement": "None",
+    "line": "EB",
+    "is_core": 1,
+    "competency": "Facility Equipment & Systems"
+  },
+  {
+    "skill_id": 266,
+    "skill_name": "Electrical Switchgear, Transformer & Distribution Components",
+    "segement": "None",
+    "line": "EB",
+    "is_core": 1,
+    "competency": "Facility Equipment & Systems"
+  },
+  {
+    "skill_id": 267,
+    "skill_name": "Low Pressure Boiler",
+    "segement": "None",
+    "line": "EB",
+    "is_core": 1,
+    "competency": "Facility Equipment & Systems"
+  },
+  {
+    "skill_id": 268,
+    "skill_name": "Steam Production",
+    "segement": "None",
+    "line": "EB",
+    "is_core": 1,
+    "competency": "Facility Equipment & Systems"
+  },
+  {
+    "skill_id": 269,
+    "skill_name": "Refrigeration Systems",
+    "segement": "None",
+    "line": "EB",
+    "is_core": 1,
+    "competency": "Facility Equipment & Systems"
+  },
+  {
+    "skill_id": 270,
+    "skill_name": "Production Machinery",
+    "segement": "None",
+    "line": "EB",
+    "is_core": 1,
+    "competency": "Facility Equipment & Systems"
+  },
+  {
+    "skill_id": 271,
+    "skill_name": "ASME Boiler & Vessel Code",
+    "segement": "None",
+    "line": "EB",
+    "is_core": 1,
+    "competency": "Codes & Regulations - EB"
+  },
+  {
+    "skill_id": 272,
+    "skill_name": "National Board Regulations",
+    "segement": "None",
+    "line": "EB",
+    "is_core": 1,
+    "competency": "Codes & Regulations - EB"
+  },
+  {
+    "skill_id": 273,
+    "skill_name": "Jurisdictional Codes",
+    "segement": "None",
+    "line": "EB",
+    "is_core": 1,
+    "competency": "Codes & Regulations - EB"
+  },
+  {
+    "skill_id": 274,
+    "skill_name": "NFPA (e.g., 85, 86, 87)",
+    "segement": "None",
+    "line": "EB",
+    "is_core": 1,
+    "competency": "Codes & Regulations - EB"
+  },
+  {
+    "skill_id": 275,
+    "skill_name": "National Electrical Codes",
+    "segement": "None",
+    "line": "EB",
+    "is_core": 1,
+    "competency": "Codes & Regulations - EB"
+  },
+  {
+    "skill_id": 276,
+    "skill_name": "Operational Impact",
+    "segement": "None",
+    "line": "EB",
+    "is_core": 1,
+    "competency": "Business Interruption of Machinery"
+  },
+  {
+    "skill_id": 277,
+    "skill_name": "Contingency Planning",
+    "segement": "None",
+    "line": "EB",
+    "is_core": 1,
+    "competency": "Business Interruption of Machinery"
+  },
+  {
+    "skill_id": 278,
+    "skill_name": "Business Income Loss",
+    "segement": "None",
+    "line": "EB",
+    "is_core": 1,
+    "competency": "Business Interruption of Machinery"
+  },
+  {
+    "skill_id": 279,
+    "skill_name": "Vessel",
+    "segement": "None",
+    "line": "EB",
+    "is_core": 1,
+    "competency": "Jurisdictional Inspections"
+  },
+  {
+    "skill_id": 280,
+    "skill_name": "Boiler",
+    "segement": "None",
+    "line": "EB",
+    "is_core": 1,
+    "competency": "Jurisdictional Inspections"
+  },
+  {
+    "skill_id": 281,
+    "skill_name": "Maintenance Standards",
+    "segement": "None",
+    "line": "EB",
+    "is_core": 1,
+    "competency": "Equipment Maintenance & Testing"
+  },
+  {
+    "skill_id": 282,
+    "skill_name": "Non Destructive Testing (NDT)",
+    "segement": "None",
+    "line": "EB",
+    "is_core": 1,
+    "competency": "Equipment Maintenance & Testing"
+  },
+  {
+    "skill_id": 283,
+    "skill_name": "Operational Impact including PML",
+    "segement": "None",
+    "line": "EB",
+    "is_core": 1,
+    "competency": "Spoilage and Contamination"
+  },
+  {
+    "skill_id": 284,
+    "skill_name": "Knowledge of Failure Modes",
+    "segement": "None",
+    "line": "EB",
+    "is_core": 1,
+    "competency": "Spoilage and Contamination"
+  },
+  {
+    "skill_id": 285,
+    "skill_name": "Production Machinery",
+    "segement": "Manufacturing",
+    "line": "EB",
+    "is_core": 0,
+    "competency": "EB - Manufacturing"
+  },
+  {
+    "skill_id": 286,
+    "skill_name": "National Electrical Codes",
+    "segement": "Manufacturing",
+    "line": "EB",
+    "is_core": 0,
+    "competency": "EB - Manufacturing"
+  },
+  {
+    "skill_id": 287,
+    "skill_name": "Steam & Combustion Turbine",
+    "segement": "Manufacturing",
+    "line": "EB",
+    "is_core": 0,
+    "competency": "EB - Manufacturing"
+  },
+  {
+    "skill_id": 288,
+    "skill_name": "Medical Diagnostic Equipment Related to Patients",
+    "segement": "Healthcare",
+    "line": "EB",
+    "is_core": 0,
+    "competency": "EB - Healthcare (Hospital)"
+  },
+  {
+    "skill_id": 289,
+    "skill_name": "Facility Equipment & Systems",
+    "segement": "Healthcare",
+    "line": "EB",
+    "is_core": 0,
+    "competency": "EB - Healthcare (Hospital)"
+  },
+  {
+    "skill_id": 290,
+    "skill_name": "Food Contamination & Spoilage",
+    "segement": "Manufacturing",
+    "line": "EB",
+    "is_core": 0,
+    "competency": "EB - Manufacturing (Food)"
+  },
+  {
+    "skill_id": 291,
+    "skill_name": "Refrigeration & Storage",
+    "segement": "Manufacturing",
+    "line": "EB",
+    "is_core": 0,
+    "competency": "EB - Manufacturing (Food)"
+  },
+  {
+    "skill_id": 292,
+    "skill_name": "Knowledge of FDA (Manufacturing)",
+    "segement": "Manufacturing",
+    "line": "EB",
+    "is_core": 0,
+    "competency": "EB - Manufacturing (Food)"
+  },
+  {
+    "skill_id": 293,
+    "skill_name": "Data Center",
+    "segement": "Technology",
+    "line": "EB",
+    "is_core": 0,
+    "competency": "EB - Technology (IT Software)"
+  },
+  {
+    "skill_id": 294,
+    "skill_name": "National Electrical Codes",
+    "segement": "Technology",
+    "line": "EB",
+    "is_core": 0,
+    "competency": "EB - Technology (IT Software)"
+  },
+  {
+    "skill_id": 295,
+    "skill_name": "Clean Room (Technology)",
+    "segement": "Technology",
+    "line": "EB",
+    "is_core": 0,
+    "competency": "EB - Technology (Electronic Component & Hardware Manufacturing)"
+  },
+  {
+    "skill_id": 296,
+    "skill_name": "Semi-conductor",
+    "segement": "Technology",
+    "line": "EB",
+    "is_core": 0,
+    "competency": "EB - Technology (Electronic Component & Hardware Manufacturing)"
+  },
+  {
+    "skill_id": 297,
+    "skill_name": "Microchip & Nano",
+    "segement": "Technology",
+    "line": "EB",
+    "is_core": 0,
+    "competency": "EB - Technology (Electronic Component & Hardware Manufacturing)"
+  },
+  {
+    "skill_id": 298,
+    "skill_name": "Knowledge of FDA (Life Science)",
+    "segement": "Life Science",
+    "line": "EB",
+    "is_core": 0,
+    "competency": "EB - Life Science"
+  },
+  {
+    "skill_id": 299,
+    "skill_name": "Facility Equipment & Systems (Competency Level)",
+    "segement": "Life Science",
+    "line": "EB",
+    "is_core": 0,
+    "competency": "EB - Life Science"
+  },
+  {
+    "skill_id": 300,
+    "skill_name": "Clean Room (Life Science)",
+    "segement": "Life Science",
+    "line": "EB",
+    "is_core": 0,
+    "competency": "EB - Life Science"
+  }
+]

@@ -26,7 +26,6 @@ import evaluatePositionGraph from '../helper/positionGraphHelper';
 import evaluateManagerGraph from '../helper/managerGraphHelper';
 import evaluateIndividualGraph from '../helper/individualGraphHelper';
 
-
 class Dashboard extends Component {
   constructor(props) {
     super(props);
@@ -1252,28 +1251,9 @@ class Dashboard extends Component {
     //console.log(filterObj.is_eb)
 
     return (
-
-      <div style={{flex:'auto', display:'flex', flexDirection:'column', padding:'10px'}}>
-
-
-<div style={{border:'0px solid blue',height: '400px', display:'flex', flexDirection:'column', padding:'10px'}}>
-
-<div style={{border:'0px solid green',height: '100px', display:'flex', flexDirection:'row',justifyContent:'center',alignItems: 'center'}}>
-
-
-<Button style={{padding:'10px 10px 10px 10px',marginRight:'20px',width:'200px',fontSize:'18px',background:'rgb(5,55,75)',color:'white'}} >Big Button 1</Button>
-<Button style={{padding:'10px 10px 10px 10px',marginRight:'20px',width:'200px',fontSize:'18px',background:'rgb(5,55,75)',color:'white'}} >Big Button 2</Button>
-<Button style={{padding:'10px 10px 10px 10px',marginRight:'20px',width:'200px',fontSize:'18px',background:'rgb(5,55,75)',color:'white'}} >Big Button 3</Button>
-<Button style={{padding:'10px 10px 10px 10px',marginRight:'20px',width:'200px',fontSize:'18px',background:'rgb(5,55,75)',color:'white'}} >Big Button 4</Button>
-
-
-</div>
-
-<div style={{border:'1px solid green',height: '400px', display:'flex', flexDirection:'column',overflow:'auto',xjustifyContent:'center',xalignItems: 'center'}}>
-
-
-
-        {/* <Grid container className={classes.filterTitleDiv}>
+      
+      <section className={classes.filterbox}>
+        <Grid container className={classes.filterTitleDiv}>
           <Grid item sm={1} md={1} lg={1}>
             <Typography color="primary" className={classes.filterheading}>
               Filters
@@ -1290,12 +1270,11 @@ class Dashboard extends Component {
               Clear All Filter
             </Button>
           </Grid>
-        </Grid> */}
+        </Grid>
 
-        <ExpansionPanel defaultExpanded={false} square classes={{ root: classes.filterPanel, expanded: classes.filterPanelFirstExpanded }}>
+        <ExpansionPanel square classes={{ root: classes.filterPanel, expanded: classes.filterPanelFirstExpanded }}>
           <ExpansionPanelSummary
             expandIcon={<ExpandMoreIcon />}
-
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -1330,7 +1309,7 @@ class Dashboard extends Component {
             </Grid>
           </ExpansionPanelDetails>
         </ExpansionPanel>
-        <ExpansionPanel defaultExpanded={false} square classes={{ root: classes.filterPanel, expanded: classes.filterPanelExpanded }}>
+        <ExpansionPanel square classes={{ root: classes.filterPanel, expanded: classes.filterPanelExpanded }}>
           <ExpansionPanelSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel2a-content"
@@ -1501,8 +1480,11 @@ class Dashboard extends Component {
               </Grid>
             </Grid>
           </ExpansionPanelDetails>
+
+
+
         </ExpansionPanel>
-        <ExpansionPanel defaultExpanded={false} square classes={{ root: classes.filterPanel, expanded: classes.filterPanelExpanded }}>
+        <ExpansionPanel square classes={{ root: classes.filterPanel, expanded: classes.filterPanelExpanded }}>
           <ExpansionPanelSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel3a-content"
@@ -1558,7 +1540,7 @@ class Dashboard extends Component {
                 </FormControl>
               </Grid>
 
-              <Grid item sm={3} md={3} lg={3}>
+               <Grid item sm={3} md={3} lg={3}>
 
                 {/* <Typography className={classes.slctBoxLabel}>
                   Core/Segment
@@ -1690,27 +1672,10 @@ class Dashboard extends Component {
             </Grid>
           </ExpansionPanelDetails>
         </ExpansionPanel>
-
-</div>
-
-
-        </div>
-
-
-
-        <div style={{border:'0px solid red',flex:1, display:'flex', flexDirection:'column', padding:'10px'}}>
-
-
-
         <Grid
           container
           className={classes.filterTitleDiv}
         >
-
-
-
-
-
           <Grid item sm={5} md={4} lg={3} className={classes.filterOptDiv}>
             <Typography className={classes.filterBoxLabel}>
               Output:
@@ -1731,9 +1696,6 @@ class Dashboard extends Component {
 
             />
           </Grid>
-
-
-
           <Grid item sm={5} md={4} lg={3} className={classes.filterOptDiv}>
             <Typography className={classes.filterBoxLabel}>
               Select Theme:
@@ -1753,11 +1715,6 @@ class Dashboard extends Component {
 
             />
           </Grid>
-
-
-
-
-
           <Grid item sm={2} md={4} lg={6} className={classes.ChartbtnDiv}>
             <Button
               size="medium"
@@ -1775,12 +1732,7 @@ class Dashboard extends Component {
             <Chart dataSource={this.state.dataSource} />
           </div>}
         </Grid>
-
-        </div>
-
-      </div>
-
-
+      </section>
     );
   }
 }

@@ -21,6 +21,12 @@ import Dashboard from './components/Dashboard';
 import UploadCSV from './components/UploadCSV';
 import BackIcon from '@material-ui/icons/ArrowBackRounded';
 import Spinner from 'react-spinkit';
+
+import Horizontal from './layout/Horizontal'
+import Vertical from './layout/Vertical'
+import Splitter from './layout/Splitter'
+import Separator from './layout/Separator'
+
 // theming
 const theme = createMuiTheme({
   palette: {
@@ -139,13 +145,16 @@ class App extends Component {
             color="rgb(59, 172, 247)" />
         </div>
     }
-
+//   <div className={classes.root}>
     return (
       <ThemeProvider theme={theme}>
         {loaderContainer}
         <CssBaseline />
         <ToastContainer />
-        <div className={classes.root}>
+
+
+
+          <Vertical>
           <AppBar position="static" className={classes.appBar}>
             <Toolbar>
               <img src={logoImg} alt="SKILLNET" className={classes.logo} />
@@ -154,9 +163,8 @@ class App extends Component {
               a{this.getLoginIcon()}
             </Toolbar>
           </AppBar>
-          <Grid container>
-            <Grid item xs={12}>
-              <Grid container justify="space-around" spacing={Number('0')}>
+          <Separator/>
+        <Horizontal style={{width:'100%',background:'blue'}}>
                 <Switch>
                   <Route
                     path="/login"
@@ -171,10 +179,10 @@ class App extends Component {
                     render={props => (<Dashboard showLoader={this.showLoader} {...props} exact />)}
                   />
                 </Switch>
-              </Grid>
-            </Grid>
-          </Grid>
-        </div>
+
+</Horizontal>
+          </Vertical>
+
       </ThemeProvider>
     );
   }

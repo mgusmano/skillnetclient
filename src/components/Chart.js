@@ -24,7 +24,7 @@ class Chart extends React.Component {
       <ReactFC
         type={chartType}
         width="100%"
-        height="600"
+        height="70%"
         dataFormat="JSON"
         dataSource={dataSource}
       />

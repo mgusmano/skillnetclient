@@ -25,6 +25,10 @@ import evaluateLocationGraph from '../helper/locationGraphHelper';
 import evaluatePositionGraph from '../helper/positionGraphHelper';
 import evaluateManagerGraph from '../helper/managerGraphHelper';
 import evaluateIndividualGraph from '../helper/individualGraphHelper';
+import Horizontal from '../layout/Horizontal'
+import Vertical from '../layout/Vertical'
+import Splitter from '../layout/Splitter'
+import Separator from '../layout/Separator'
 
 
 class Dashboard extends Component {
@@ -1250,49 +1254,12 @@ class Dashboard extends Component {
     positionOption = positionOption.sort(dynamicsort("value"));
 
     //console.log(filterObj.is_eb)
-
+//      <div style={{flex:'auto', display:'flex', flexDirection:'column', padding:'10px'}}>
     return (
+<React.Fragment>
+<Vertical style={{width:'250px'}}>
 
-      <div style={{flex:'auto', display:'flex', flexDirection:'column', padding:'10px'}}>
-
-
-<div style={{border:'0px solid blue',height: '400px', display:'flex', flexDirection:'column', padding:'10px'}}>
-
-<div style={{border:'0px solid green',height: '100px', display:'flex', flexDirection:'row',justifyContent:'center',alignItems: 'center'}}>
-
-
-<Button style={{padding:'10px 10px 10px 10px',marginRight:'20px',width:'200px',fontSize:'18px',background:'rgb(5,55,75)',color:'white'}} >Big Button 1</Button>
-<Button style={{padding:'10px 10px 10px 10px',marginRight:'20px',width:'200px',fontSize:'18px',background:'rgb(5,55,75)',color:'white'}} >Big Button 2</Button>
-<Button style={{padding:'10px 10px 10px 10px',marginRight:'20px',width:'200px',fontSize:'18px',background:'rgb(5,55,75)',color:'white'}} >Big Button 3</Button>
-<Button style={{padding:'10px 10px 10px 10px',marginRight:'20px',width:'200px',fontSize:'18px',background:'rgb(5,55,75)',color:'white'}} >Big Button 4</Button>
-
-
-</div>
-
-<div style={{border:'1px solid green',height: '400px', display:'flex', flexDirection:'column',overflow:'auto',xjustifyContent:'center',xalignItems: 'center'}}>
-
-
-
-        {/* <Grid container className={classes.filterTitleDiv}>
-          <Grid item sm={1} md={1} lg={1}>
-            <Typography color="primary" className={classes.filterheading}>
-              Filters
-            </Typography>
-          </Grid>
-          <Grid item sm={11} md={11} lg={11} className={classes.ChartbtnDiv}>
-            <Button
-              size="medium"
-              className={classes.chartBtn}
-              variant="outlined"
-              color="primary"
-              onClick={this.clearAllFilter}
-            >
-              Clear All Filter
-            </Button>
-          </Grid>
-        </Grid> */}
-
-        <ExpansionPanel defaultExpanded={false} square classes={{ root: classes.filterPanel, expanded: classes.filterPanelFirstExpanded }}>
+  <ExpansionPanel defaultExpanded={false} square classes={{ root: classes.filterPanel, expanded: classes.filterPanelFirstExpanded }}>
           <ExpansionPanelSummary
             expandIcon={<ExpandMoreIcon />}
 
@@ -1306,7 +1273,7 @@ class Dashboard extends Component {
           </ExpansionPanelSummary>
           <ExpansionPanelDetails className={classes.filterPanelContent}>
             <Grid container>
-              <Grid item sm={3} md={3} lg={3}>
+              <Grid item sm={12} md={12} lg={12}>
                 <Grid container className={classes.toolTipIconDiv}>
                   <Typography className={classes.slctBoxLabel}>
                     Assessment Source
@@ -1350,7 +1317,7 @@ class Dashboard extends Component {
                     value={filterObj.isUser}
                   >
                     <Grid container spacing={3}>
-                      <Grid item sm={6} md={6} lg={6} className={classes.toolTipIconDiv}>
+                      <Grid item sm={12} md={12} lg={12} className={classes.toolTipIconDiv}>
                         <FormControlLabel
                           className={classes.radioBtnLabel}
                           value="filters"
@@ -1378,7 +1345,7 @@ class Dashboard extends Component {
                   </RadioGroup>
                 </FormControl>
               </Grid>
-              <Grid item sm={4} md={4} lg={4}>
+              <Grid item sm={12} md={12} lg={12}>
                 <Typography className={classes.slctBoxLabel}>{labelEBPC}</Typography>
                 <Select
                   name="is_eb"
@@ -1397,9 +1364,9 @@ class Dashboard extends Component {
               <Grid
                 item
                 className={classes.selectBoxContainer}
-                sm={4}
-                md={4}
-                lg={4}
+                sm={12}
+                md={12}
+                lg={12}
               >
                 <Typography className={classes.slctBoxLabel}>
                   Manager
@@ -1422,9 +1389,9 @@ class Dashboard extends Component {
               <Grid
                 item
                 className={classes.selectBoxContainer}
-                sm={4}
-                md={4}
-                lg={4}
+                sm={12}
+                md={12}
+                lg={12}
               >
                 <Typography className={classes.slctBoxLabel}>
                   {labelPosition}
@@ -1445,7 +1412,7 @@ class Dashboard extends Component {
                 />
               </Grid>
 
-              <Grid className={classes.filterDiv} item sm={4} md={4} lg={4}>
+              <Grid className={classes.filterDiv} item sm={12} md={12} lg={12}>
                 <Typography className={classes.slctBoxLabel}>
                   Location
                 </Typography>
@@ -1464,8 +1431,8 @@ class Dashboard extends Component {
                   disabled={filterObj.isUser === "user" ? true : false}
                 />
               </Grid>
-              <Grid item lg={8} />
-              <Grid className={classes.filterDiv} item sm={4} md={4} lg={4}>
+              <Grid item lg={12} />
+              <Grid className={classes.filterDiv} item sm={12} md={12} lg={12}>
                 <Typography className={classes.slctBoxLabel}>
                   Filtered Users
                 </Typography>
@@ -1521,7 +1488,7 @@ class Dashboard extends Component {
                     value={filterObj.isSkill}
                   >
                     <Grid container spacing={3}>
-                      <Grid item sm={6} md={6} lg={6} className={classes.toolTipIconDiv}>
+                      <Grid item sm={12} md={12} lg={12} className={classes.toolTipIconDiv}>
                         <FormControlLabel
                           className={classes.radioBtnLabel}
                           value="filters"
@@ -1537,7 +1504,7 @@ class Dashboard extends Component {
                           <Info className={classes.toolTipIcon} />
                         </Tooltip>
                       </Grid>
-                      <Grid item sm={6} md={6} lg={6} className={classes.toolTipIconDiv}>
+                      <Grid item sm={12} md={12} lg={12} className={classes.toolTipIconDiv}>
                         <FormControlLabel
                           className={classes.radioBtnLabel}
                           value="skill"
@@ -1558,7 +1525,7 @@ class Dashboard extends Component {
                 </FormControl>
               </Grid>
 
-              <Grid item sm={3} md={3} lg={3}>
+              <Grid item sm={12} md={12} lg={12}>
 
                 {/* <Typography className={classes.slctBoxLabel}>
                   Core/Segment
@@ -1582,9 +1549,9 @@ class Dashboard extends Component {
               <Grid
                 item
                 className={classes.selectBoxContainer}
-                sm={3}
-                md={3}
-                lg={3}
+                sm={12}
+                md={12}
+                lg={12}
               >
                 <Typography className={classes.slctBoxLabel}>
                   {labelSegment}
@@ -1607,9 +1574,9 @@ class Dashboard extends Component {
               <Grid
                 item
                 className={classes.selectBoxContainer}
-                sm={3}
-                md={3}
-                lg={3}
+                sm={12}
+                md={12}
+                lg={12}
               >
                 <Typography className={classes.slctBoxLabel}>{labelLine}</Typography>
                 <Select
@@ -1626,14 +1593,14 @@ class Dashboard extends Component {
                   clearable={false}
                   disabled={filterObj.isSkill === "skill" ? true : false}
                 />
-                <Grid item sm={4} md={4} lg={4} />
+                <Grid item sm={12} md={12} lg={12} />
               </Grid>
               <Grid
                 item
                 className={classes.selectBoxContainer}
-                sm={3}
-                md={3}
-                lg={3}
+                sm={12}
+                md={12}
+                lg={12}
               >
                 <Typography className={classes.slctBoxLabel}>
                 {labelCompetency}
@@ -1653,7 +1620,7 @@ class Dashboard extends Component {
                   disabled={filterObj.isSkill === "skill" ? true : false}
                 />
               </Grid>
-              <Grid className={classes.filterDiv} item sm={3} md={3} lg={3}>
+              <Grid className={classes.filterDiv} item sm={12} md={12} lg={12}>
                 <Typography className={classes.slctBoxLabel}>
                   Filtered Skill
                 </Typography>
@@ -1691,10 +1658,31 @@ class Dashboard extends Component {
           </ExpansionPanelDetails>
         </ExpansionPanel>
 
+
+
+
+</Vertical>
+
+<Splitter/>
+
+
+<Vertical style={{flex:'1'}}>
+
+
+<div style={{border:'0px solid green',height: '100px', display:'flex', flexDirection:'row',justifyContent:'center',alignItems: 'center'}}>
+
+
+<Button style={{padding:'10px 10px 10px 10px',marginRight:'20px',width:'200px',fontSize:'18px',background:'rgb(5,55,75)',color:'white'}} >Big Button 1</Button>
+<Button style={{padding:'10px 10px 10px 10px',marginRight:'20px',width:'200px',fontSize:'18px',background:'rgb(5,55,75)',color:'white'}} >Big Button 2</Button>
+<Button style={{padding:'10px 10px 10px 10px',marginRight:'20px',width:'200px',fontSize:'18px',background:'rgb(5,55,75)',color:'white'}} >Big Button 3</Button>
+<Button style={{padding:'10px 10px 10px 10px',marginRight:'20px',width:'200px',fontSize:'18px',background:'rgb(5,55,75)',color:'white'}} >Big Button 4</Button>
+
+
 </div>
 
 
-        </div>
+
+
 
 
 
@@ -1778,7 +1766,11 @@ class Dashboard extends Component {
 
         </div>
 
-      </div>
+      </Vertical>
+
+
+</React.Fragment>
+
 
 
     );

@@ -1308,7 +1308,7 @@ class Dashboard extends Component {
 
           <ExpansionPanelDetails className={classes.filterPanelContent}>
             <Grid container >
-              <Grid item sm={12} md={12} lg={12} className={classes.radioGroup}>
+              <Grid className={classes.radioGroup} item sm={12} md={12} lg={12}>
                 <FormControl component="fieldset">
                   <RadioGroup
                     row
@@ -1317,7 +1317,7 @@ class Dashboard extends Component {
                     value={filterObj.isUser}
                   >
                     <Grid container spacing={3}>
-                      <Grid item sm={12} md={12} lg={12} className={classes.toolTipIconDiv}>
+                      <Grid xclassName={classes.toolTipIconDiv} item sm={12} md={12} lg={12}>
                         <FormControlLabel
                           className={classes.radioBtnLabel}
                           value="filters"
@@ -1329,7 +1329,7 @@ class Dashboard extends Component {
                           <Info className={classes.toolTipIcon} />
                         </Tooltip>
                       </Grid>
-                      <Grid item sm={6} md={6} lg={6} className={classes.toolTipIconDiv}>
+                      <Grid xclassName={classes.toolTipIconDiv} item sm={12} md={12} lg={12}>
                         <FormControlLabel
                           className={classes.radioBtnLabel}
                           value="user"
@@ -1363,9 +1363,7 @@ class Dashboard extends Component {
                 />
               </Grid>
 
-              <Grid item sm={12} md={12} lg={12}
-                xclassName={classes.selectBoxContainer}
-              >
+              <Grid xclassName={classes.selectBoxContainer} item sm={12} md={12} lg={12}>
                 <Typography className={classes.slctBoxLabel}>
                   Manager
                 </Typography>
@@ -1384,9 +1382,7 @@ class Dashboard extends Component {
                   disabled={filterObj.isUser === "user" ? true : false}
                 />
               </Grid>
-              <Grid item sm={12} md={12} lg={12}
-                xclassName={classes.selectBoxContainer}
-              >
+              <Grid xclassName={classes.selectBoxContainer} item sm={12} md={12} lg={12}>
                 <Typography className={classes.slctBoxLabel}>
                   {labelPosition}
                 </Typography>
@@ -1475,7 +1471,7 @@ class Dashboard extends Component {
           <ExpansionPanelDetails className={classes.filterPanelContent}>
             <Grid container>
 
-              <Grid item sm={12} md={12} lg={12} className={classes.radioGroup}>
+              <Grid className={classes.radioGroup} item sm={12} md={12} lg={12}>
                 <FormControl component="fieldset">
                   <RadioGroup
                     row
@@ -1484,7 +1480,7 @@ class Dashboard extends Component {
                     value={filterObj.isSkill}
                   >
                     <Grid container spacing={3}>
-                      <Grid item sm={12} md={12} lg={12} className={classes.toolTipIconDiv}>
+                      <Grid className={classes.toolTipIconDiv} item sm={12} md={12} lg={12}>
                         <FormControlLabel
                           className={classes.radioBtnLabel}
                           value="filters"
@@ -1500,7 +1496,7 @@ class Dashboard extends Component {
                           <Info className={classes.toolTipIcon} />
                         </Tooltip>
                       </Grid>
-                      <Grid item sm={12} md={12} lg={12} className={classes.toolTipIconDiv}>
+                      <Grid className={classes.toolTipIconDiv} item sm={12} md={12} lg={12}>
                         <FormControlLabel
                           className={classes.radioBtnLabel}
                           value="skill"
@@ -1542,9 +1538,7 @@ class Dashboard extends Component {
 
               </Grid>
 
-              <Grid item sm={12} md={12} lg={12}
-                xclassName={classes.selectBoxContainer}
-              >
+              <Grid xclassName={classes.selectBoxContainer} item sm={12} md={12} lg={12}>
                 <Typography className={classes.slctBoxLabel}>
                   {labelSegment}
                 </Typography>
@@ -1564,9 +1558,7 @@ class Dashboard extends Component {
                 />
               </Grid>
 
-              <Grid item sm={12} md={12} lg={12}
-                xclassName={classes.selectBoxContainer}
-              >
+              <Grid xclassName={classes.selectBoxContainer} item sm={12} md={12} lg={12}>
                 <Typography className={classes.slctBoxLabel}>{labelLine}</Typography>
                 <Select
                   name="line"
@@ -1584,9 +1576,7 @@ class Dashboard extends Component {
                 />
                 <Grid item sm={12} md={12} lg={12} />
               </Grid>
-              <Grid item sm={12} md={12} lg={12}
-                xclassName={classes.selectBoxContainer}
-              >
+              <Grid xclassName={classes.selectBoxContainer} item sm={12} md={12} lg={12}>
                 <Typography className={classes.slctBoxLabel}>
                 {labelCompetency}
                 </Typography>
@@ -1656,16 +1646,12 @@ class Dashboard extends Component {
 <Vertical style={{flex:'1'}}>
 
 
-<div style={{border:'0px solid green',height: '100px', display:'flex', flexDirection:'row',justifyContent:'center',alignItems: 'center'}}>
-
-
-<Button style={{padding:'10px 10px 10px 10px',marginRight:'20px',width:'200px',fontSize:'18px',background:'rgb(5,55,75)',color:'white'}} >Big Button 1</Button>
-<Button style={{padding:'10px 10px 10px 10px',marginRight:'20px',width:'200px',fontSize:'18px',background:'rgb(5,55,75)',color:'white'}} >Big Button 2</Button>
-<Button style={{padding:'10px 10px 10px 10px',marginRight:'20px',width:'200px',fontSize:'18px',background:'rgb(5,55,75)',color:'white'}} >Big Button 3</Button>
-<Button style={{padding:'10px 10px 10px 10px',marginRight:'20px',width:'200px',fontSize:'18px',background:'rgb(5,55,75)',color:'white'}} >Big Button 4</Button>
-
-
-</div>
+  {/* <div style={{border:'0px solid green',height: '100px', display:'flex', flexDirection:'row',justifyContent:'center',alignItems: 'center'}}>
+    <Button style={{padding:'10px 10px 10px 10px',marginRight:'20px',width:'200px',fontSize:'18px',background:'rgb(5,55,75)',color:'white'}} >Big Button 1</Button>
+    <Button style={{padding:'10px 10px 10px 10px',marginRight:'20px',width:'200px',fontSize:'18px',background:'rgb(5,55,75)',color:'white'}} >Big Button 2</Button>
+    <Button style={{padding:'10px 10px 10px 10px',marginRight:'20px',width:'200px',fontSize:'18px',background:'rgb(5,55,75)',color:'white'}} >Big Button 3</Button>
+    <Button style={{padding:'10px 10px 10px 10px',marginRight:'20px',width:'200px',fontSize:'18px',background:'rgb(5,55,75)',color:'white'}} >Big Button 4</Button>
+  </div> */}
 
 
 

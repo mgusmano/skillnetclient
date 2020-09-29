@@ -1345,6 +1345,7 @@ class Dashboard extends Component {
                   </RadioGroup>
                 </FormControl>
               </Grid>
+
               <Grid item sm={12} md={12} lg={12}>
                 <Typography className={classes.slctBoxLabel}>{labelEBPC}</Typography>
                 <Select
@@ -1361,12 +1362,9 @@ class Dashboard extends Component {
                   disabled={filterObj.isUser === "user" ? true : false}
                 />
               </Grid>
-              <Grid
-                item
-                className={classes.selectBoxContainer}
-                sm={12}
-                md={12}
-                lg={12}
+
+              <Grid item sm={12} md={12} lg={12}
+                xclassName={classes.selectBoxContainer}
               >
                 <Typography className={classes.slctBoxLabel}>
                   Manager
@@ -1386,12 +1384,8 @@ class Dashboard extends Component {
                   disabled={filterObj.isUser === "user" ? true : false}
                 />
               </Grid>
-              <Grid
-                item
-                className={classes.selectBoxContainer}
-                sm={12}
-                md={12}
-                lg={12}
+              <Grid item sm={12} md={12} lg={12}
+                xclassName={classes.selectBoxContainer}
               >
                 <Typography className={classes.slctBoxLabel}>
                   {labelPosition}
@@ -1412,7 +1406,7 @@ class Dashboard extends Component {
                 />
               </Grid>
 
-              <Grid className={classes.filterDiv} item sm={12} md={12} lg={12}>
+              <Grid xclassName={classes.filterDiv} item sm={12} md={12} lg={12}>
                 <Typography className={classes.slctBoxLabel}>
                   Location
                 </Typography>
@@ -1431,8 +1425,9 @@ class Dashboard extends Component {
                   disabled={filterObj.isUser === "user" ? true : false}
                 />
               </Grid>
-              <Grid item lg={12} />
-              <Grid className={classes.filterDiv} item sm={12} md={12} lg={12}>
+
+
+              <Grid xclassName={classes.filterDiv} item sm={12} md={12} lg={12}>
                 <Typography className={classes.slctBoxLabel}>
                   Filtered Users
                 </Typography>
@@ -1449,7 +1444,7 @@ class Dashboard extends Component {
                   disabled={filterObj.isUser === "user" ? true : false}
                 />
               </Grid>
-              <Grid className={classes.filterDiv} item sm={12} md={12} lg={12}>
+              <Grid xclassName={classes.filterDiv} item sm={12} md={12} lg={12}>
                 <Typography className={classes.slctBoxLabel}>User</Typography>
                 <Select
                   multi={true}
@@ -1479,6 +1474,7 @@ class Dashboard extends Component {
           </ExpansionPanelSummary>
           <ExpansionPanelDetails className={classes.filterPanelContent}>
             <Grid container>
+
               <Grid item sm={12} md={12} lg={12} className={classes.radioGroup}>
                 <FormControl component="fieldset">
                   <RadioGroup
@@ -1546,12 +1542,8 @@ class Dashboard extends Component {
 
               </Grid>
 
-              <Grid
-                item
-                className={classes.selectBoxContainer}
-                sm={12}
-                md={12}
-                lg={12}
+              <Grid item sm={12} md={12} lg={12}
+                xclassName={classes.selectBoxContainer}
               >
                 <Typography className={classes.slctBoxLabel}>
                   {labelSegment}
@@ -1571,12 +1563,9 @@ class Dashboard extends Component {
                   disabled={filterObj.isSkill === "skill" ? true : false}
                 />
               </Grid>
-              <Grid
-                item
-                className={classes.selectBoxContainer}
-                sm={12}
-                md={12}
-                lg={12}
+
+              <Grid item sm={12} md={12} lg={12}
+                xclassName={classes.selectBoxContainer}
               >
                 <Typography className={classes.slctBoxLabel}>{labelLine}</Typography>
                 <Select
@@ -1595,12 +1584,8 @@ class Dashboard extends Component {
                 />
                 <Grid item sm={12} md={12} lg={12} />
               </Grid>
-              <Grid
-                item
-                className={classes.selectBoxContainer}
-                sm={12}
-                md={12}
-                lg={12}
+              <Grid item sm={12} md={12} lg={12}
+                xclassName={classes.selectBoxContainer}
               >
                 <Typography className={classes.slctBoxLabel}>
                 {labelCompetency}
@@ -1620,7 +1605,8 @@ class Dashboard extends Component {
                   disabled={filterObj.isSkill === "skill" ? true : false}
                 />
               </Grid>
-              <Grid className={classes.filterDiv} item sm={12} md={12} lg={12}>
+
+              <Grid xclassName={classes.filterDiv} item sm={12} md={12} lg={12}>
                 <Typography className={classes.slctBoxLabel}>
                   Filtered Skill
                 </Typography>
@@ -1637,7 +1623,8 @@ class Dashboard extends Component {
                   disabled={filterObj.isSkill === "skill" ? true : false}
                 />
               </Grid>
-              <Grid className={classes.filterDiv} item sm={12} md={12} lg={12}>
+
+              <Grid xclassName={classes.filterDiv} item sm={12} md={12} lg={12}>
                 <Typography className={classes.slctBoxLabel}>Skill</Typography>
                 <Select
                   multi={true}

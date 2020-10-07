@@ -41,9 +41,9 @@ class Dashboard extends Component {
       labelSubFunction: 'Sub Function',
       //labelSubFunction: 'SubFunction',
       labelPosition: 'Job Band', //'Position',
-      //labelSegment: 'Segment',
+      labelSegment: 'Segment',
 
-      labelSegment: 'Function', //'Segment',
+      labelFunctionGroup: 'Function Group', //'Segment',
       labelLine: 'Capabilities Group', //'Line',
       labelCompetency: 'Capability', //'Competency',
 
@@ -1250,7 +1250,7 @@ class Dashboard extends Component {
 
   render() {
     const { classes } = this.props;
-    const { filterObj, options, labelEBPC, labelFunction, labelSubFunction, labelPosition, labelSegment, labelLine, labelCompetency } = this.state;
+    const { filterObj, options, labelEBPC, labelFunction, labelSegment, labelSubFunction, labelPosition, labelFunctionGroup, labelLine, labelCompetency } = this.state;
     let {
 
       jobBandOption,
@@ -1631,7 +1631,7 @@ class Dashboard extends Component {
 
               <Grid xclassName={classes.selectBoxContainer} item sm={12} md={12} lg={12}>
                 <Typography className={classes.slctBoxLabel}>
-                  x{labelSegment}
+                  {labelFunctionGroup}
                 </Typography>
                 <Select
                   name="segement"
@@ -1643,7 +1643,7 @@ class Dashboard extends Component {
                   searchable
                   removeSelected
                   options={segementOption}
-                  placeholder={`Select ${labelSegment}...`}
+                  placeholder={`Select ${labelFunctionGroup}...`}
                   clearable={false}
                   disabled={filterObj.isSkill === "skill" ? true : false}
                 />

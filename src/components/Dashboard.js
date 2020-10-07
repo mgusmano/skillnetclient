@@ -1363,6 +1363,40 @@ class Dashboard extends Component {
                 />
               </Grid>
 
+              <Grid item sm={12} md={12} lg={12}>
+                <Typography className={classes.slctBoxLabel}>Sub-Function</Typography>
+                <Select
+                  name="is_eb"
+                  value={filterObj.is_eb}
+                  onChange={(e) => this.userSelectChangeHandler(e, "is_eb")}
+                  className="search-select"
+                  optionalClassName="form-select-option"
+                  searchable
+                  removeSelected
+                  options={ebOption}
+                  placeholder={`Select ${labelEBPC}...`}
+                  clearable
+                  disabled={filterObj.isUser === "user" ? true : false}
+                />
+              </Grid>
+
+              <Grid item sm={12} md={12} lg={12}>
+                <Typography className={classes.slctBoxLabel}>Segment</Typography>
+                <Select
+                  name="is_eb"
+                  value={filterObj.is_eb}
+                  onChange={(e) => this.userSelectChangeHandler(e, "is_eb")}
+                  className="search-select"
+                  optionalClassName="form-select-option"
+                  searchable
+                  removeSelected
+                  options={ebOption}
+                  placeholder={`Select ${labelEBPC}...`}
+                  clearable
+                  disabled={filterObj.isUser === "user" ? true : false}
+                />
+              </Grid>
+
               <Grid xclassName={classes.selectBoxContainer} item sm={12} md={12} lg={12}>
                 <Typography className={classes.slctBoxLabel}>
                   Manager

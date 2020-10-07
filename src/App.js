@@ -164,7 +164,7 @@ class App extends Component {
             </Toolbar>
           </AppBar>
           <Separator/>
-        <Horizontal style={{width:'100%',background:'blue'}}>
+          <Horizontal style={{width:'100%',background:'blue'}}>
                 <Switch>
                   <Route
                     path="/login"
@@ -180,7 +180,7 @@ class App extends Component {
                   />
                 </Switch>
 
-</Horizontal>
+            </Horizontal>
           </Vertical>
 
       </ThemeProvider>

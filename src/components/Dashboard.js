@@ -36,7 +36,9 @@ class Dashboard extends Component {
     super(props);
     this.userSkillData = [];
     this.state = {
-      labelEBPC: 'Function', //'EB/PC',
+      labelEBPC: 'EB/PC', //'EB/PC',
+      labelFunction: 'Function',
+      labelSubFunction: 'Sub Function',
       //labelSubFunction: 'SubFunction',
       labelPosition: 'Job Band', //'Position',
       //labelSegment: 'Segment',
@@ -54,6 +56,12 @@ class Dashboard extends Component {
       positionTargetData: [],
       filterObjClearAll: '',
       filterObj: {
+
+        job_band: [],
+        segment: [],
+        sub_function: [],
+        function: [],
+
         rating: 0,
         is_eb: "",
         geo_location: [],
@@ -447,11 +455,18 @@ class Dashboard extends Component {
 
   setUniqueOptions = () => {
     const { options, positionData, userDataClone, clearAllFlag } = this.state;
+    console.log(userDataClone)
     if (userDataClone.length > 0) {
       let optionsClone = JSON.parse(JSON.stringify(options));
       optionsClone.locationOption = this.getUniqueData(userDataClone, "geo_location", "user_id");
       optionsClone.managerOption = this.getUniqueData(userDataClone, "manager_name", "user_id", "geo_location");
       optionsClone.positionOption = this.getUniqueDataPosition(userDataClone, "position_id", positionData);
+
+      optionsClone.jobBandOption = this.getUniqueData(userDataClone, "job_band", "user_id");
+      optionsClone.segmentOption = this.getUniqueData(userDataClone, "segment", "user_id");
+      optionsClone.subFunctionOption = this.getUniqueData(userDataClone, "sub_function", "user_id");
+      optionsClone.functionOption = this.getUniqueData(userDataClone, "function", "user_id");
+
       optionsClone.filterUserOptions = this.getUserDataArray(userDataClone);
       this.setState({ options: optionsClone }, () => {
         if (clearAllFlag) {
@@ -1093,6 +1108,12 @@ class Dashboard extends Component {
       options.filterSkillOptions = [];
     } else if (name === "isUser" && value === "user") {
       filterObj.is_eb = "";
+
+      filterObj.function = [];
+      filterObj.sub_function = [];
+      filterObj.segment = [];
+      filterObj.job_band = [];
+
       filterObj.geo_location = [];
       filterObj.manager_name = [];
       filterObj.position_id = [];
@@ -1229,8 +1250,15 @@ class Dashboard extends Component {
 
   render() {
     const { classes } = this.props;
-    const { filterObj, options, labelEBPC, labelPosition, labelSegment, labelLine, labelCompetency } = this.state;
+    const { filterObj, options, labelEBPC, labelFunction, labelSubFunction, labelPosition, labelSegment, labelLine, labelCompetency } = this.state;
     let {
+
+      jobBandOption,
+      segmentOption,
+      subFunctionOption,
+      functionOption,
+
+
       managerOption,
       locationOption,
       positionOption,
@@ -1247,6 +1275,9 @@ class Dashboard extends Component {
       outputOption,
       themeOption
     } = options;
+
+    //subFunctionOption = subFunctionOption.sort(dynamicsort("label"));
+
     filterUserOptions = filterUserOptions.sort(dynamicsort("label"));
     managerOption = managerOption.sort(dynamicsort("label"));
     locationOption = locationOption.sort(dynamicsort("label"));
@@ -1346,7 +1377,7 @@ class Dashboard extends Component {
                 </FormControl>
               </Grid>
 
-              <Grid item sm={12} md={12} lg={12}>
+              <Grid hidden={true} item sm={12} md={12} lg={12}>
                 <Typography className={classes.slctBoxLabel}>{labelEBPC}</Typography>
                 <Select
                   name="is_eb"
@@ -1363,18 +1394,43 @@ class Dashboard extends Component {
                 />
               </Grid>
 
+              {/* jobBandOption,
+      segmentOption,
+      subFunctionOption,
+      functionOption, */}
+
+
               <Grid item sm={12} md={12} lg={12}>
-                <Typography className={classes.slctBoxLabel}>Sub-Function</Typography>
+                <Typography className={classes.slctBoxLabel}>{labelFunction}</Typography>
                 <Select
-                  name="is_eb"
-                  value={filterObj.is_eb}
-                  onChange={(e) => this.userSelectChangeHandler(e, "is_eb")}
+                  name="function"
+                  multi={true}
+                  value={filterObj.function}
+                  onChange={(e) => this.userSelectChangeHandler(e, "function")}
                   className="search-select"
                   optionalClassName="form-select-option"
                   searchable
                   removeSelected
-                  options={ebOption}
-                  placeholder={`Select ${labelEBPC}...`}
+                  options={functionOption}
+                  placeholder={`Select Function...`}
+                  clearable
+                  disabled={filterObj.isUser === "user" ? true : false}
+                />
+              </Grid>
+
+              <Grid item sm={12} md={12} lg={12}>
+                <Typography className={classes.slctBoxLabel}>{labelSubFunction}</Typography>
+                <Select
+                  name="sub_function"
+                  multi={true}
+                  value={filterObj.sub_function}
+                  onChange={(e) => this.userSelectChangeHandler(e, "sub_function")}
+                  className="search-select"
+                  optionalClassName="form-select-option"
+                  searchable
+                  removeSelected
+                  options={subFunctionOption}
+                  placeholder={`Select Sub-Function...`}
                   clearable
                   disabled={filterObj.isUser === "user" ? true : false}
                 />
@@ -1383,15 +1439,16 @@ class Dashboard extends Component {
               <Grid item sm={12} md={12} lg={12}>
                 <Typography className={classes.slctBoxLabel}>Segment</Typography>
                 <Select
-                  name="is_eb"
-                  value={filterObj.is_eb}
-                  onChange={(e) => this.userSelectChangeHandler(e, "is_eb")}
+                  name="segment"
+                  multi={true}
+                  value={filterObj.segment}
+                  onChange={(e) => this.userSelectChangeHandler(e, "segment")}
                   className="search-select"
                   optionalClassName="form-select-option"
                   searchable
                   removeSelected
-                  options={ebOption}
-                  placeholder={`Select ${labelEBPC}...`}
+                  options={segmentOption}
+                  placeholder={`Select ${labelSegment}...`}
                   clearable
                   disabled={filterObj.isUser === "user" ? true : false}
                 />
@@ -1574,7 +1631,7 @@ class Dashboard extends Component {
 
               <Grid xclassName={classes.selectBoxContainer} item sm={12} md={12} lg={12}>
                 <Typography className={classes.slctBoxLabel}>
-                  {labelSegment}
+                  x{labelSegment}
                 </Typography>
                 <Select
                   name="segement"

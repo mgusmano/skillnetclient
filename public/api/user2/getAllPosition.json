@@ -1,0 +1,38 @@
+[
+  {
+    "position_id": 1,
+    "position_name": "Associate Manager/Associate Expert"
+  },
+  {
+    "position_id": 2,
+    "position_name": "Director"
+  },
+  {
+    "position_id": 3,
+    "position_name": "Experienced Professional"
+  },
+  {
+    "position_id": 4,
+    "position_name": "Experienced Support"
+  },
+  {
+    "position_id": 5,
+    "position_name": "Manager/Expert"
+  },
+  {
+    "position_id": 6,
+    "position_name": "Professional"
+  },
+  {
+    "position_id": 7,
+    "position_name": "Senior Professional"
+  },
+  {
+    "position_id": 8,
+    "position_name": "Specialized Support"
+  },
+  {
+    "position_id": 9,
+    "position_name": "Vice President"
+  }
+]

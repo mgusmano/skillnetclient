@@ -1,5 +1,37 @@
 [
   {
+    "skill_id": 0,
+    "skill_name": "Job Band",
+    "segement": "",
+    "line": "",
+    "is_core": 0,
+    "competency": ""
+  },
+  {
+    "skill_id": 0,
+    "skill_name": "Segment",
+    "segement": "",
+    "line": "",
+    "is_core": 0,
+    "competency": ""
+  },
+  {
+    "skill_id": 0,
+    "skill_name": "Sub Function",
+    "segement": "",
+    "line": "",
+    "is_core": 0,
+    "competency": ""
+  },
+  {
+    "skill_id": 0,
+    "skill_name": "Function",
+    "segement": "",
+    "line": "",
+    "is_core": 0,
+    "competency": ""
+  },
+  {
     "skill_id": 1,
     "skill_name": "Engineer of Record",
     "segement": "Supply Chain",
